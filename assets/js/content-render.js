@@ -105,6 +105,11 @@
             var bi = back.querySelector("img"); if (bi) { bi.src = home.cases.photoBack.image; bi.alt = home.cases.photoBack.label; }
             var bl = back.querySelector(".case-badge"); if (bl) bl.textContent = home.cases.photoBack.label;
           }
+          var mid = document.querySelector(".case-card-mid");
+          if (mid && home.cases.photoMid) {
+            var mi = mid.querySelector("img"); if (mi) { mi.src = home.cases.photoMid.image; mi.alt = home.cases.photoMid.label; }
+            var ml = mid.querySelector(".case-badge"); if (ml) ml.textContent = home.cases.photoMid.label;
+          }
           var front = document.querySelector(".case-card-front");
           if (front && home.cases.photoFront) {
             var fi = front.querySelector("img"); if (fi) { fi.src = home.cases.photoFront.image; fi.alt = home.cases.photoFront.label; }
