@@ -1,0 +1,126 @@
+{
+  "intro": {
+    "tagline": "meets with options",
+    "title": "Portfólio de Oportunidades",
+    "description": "Do naming rights de marcos arquitetônicos a ativações pontuais em corridas de rua — encontre a oportunidade certa para os objetivos e o orçamento da sua marca."
+  },
+  "verticals": [
+    {
+      "slug": "esportes",
+      "navLabel": "Esportes",
+      "titleLine": "Esportes · meets with vibration",
+      "colorClass": "v-esportes",
+      "tintClass": "vtint-esportes",
+      "intro": "",
+      "cards": [
+        { "name": "Netshoes Run Tour Adidas 2026", "location": "São Paulo, Brasília e Recife", "description": "Um dos maiores circuitos de corridas de rua do País, com três etapas em 2026 e milhares de participantes por etapa.", "value": "R$ 17.500 – R$ 500.250", "valueLabel": "por etapa", "period": "2026", "periodLabel": "data/período", "interestQuery": "Netshoes+Run+Tour+Adidas+2026", "hidden": false },
+        { "name": "2ª Edição da Liga Run", "location": "Porto Alegre - RS", "description": "Corrida beneficente da Liga Feminina de Combate ao Câncer do RS, associando sua marca a uma causa de diagnóstico precoce e hábitos saudáveis.", "value": "R$ 15.000 – R$ 250.000", "valueLabel": "investimento", "period": "13/09/2026", "periodLabel": "data", "interestQuery": "Liga+Run", "hidden": false },
+        { "name": "FT Run — Fundação Tênis", "location": "Porto Alegre - RS", "description": "Corrida de rua que une esporte, inclusão social e bem-estar, com renda revertida a projetos educacionais para jovens.", "value": "R$ 50.000 – R$ 300.000", "valueLabel": "investimento", "period": "2º sem. 2026", "periodLabel": "período", "interestQuery": "FT+Run", "hidden": false },
+        { "name": "Panvel Run 2026", "location": "Porto Alegre - RS", "description": "Corrida de rua do Grupo Panvel com distâncias para todos os níveis, aquecimento, entretenimento e serviços de saúde.", "value": "R$ 40.000 – R$ 160.000", "valueLabel": "investimento", "period": "08/11/2026", "periodLabel": "data", "interestQuery": "Panvel+Run", "hidden": false },
+        { "name": "MegaRace OCR 2026", "location": "Rio Grande do Sul", "description": "Circuito de aventura e superação (OCR, Trail e Ninja) — uma das mais potentes plataformas de posicionamento de marca no Sul do Brasil.", "value": "R$ 60.000 – R$ 360.000", "valueLabel": "por etapa", "period": "Temporada 2026", "periodLabel": "período", "interestQuery": "MegaRace+OCR+2026", "hidden": false },
+        { "name": "5ª Meia Maratona Laghetto", "location": "Gramado - RS", "description": "Corrida da Rede Laghetto de Hotéis na Serra Gaúcha, com percursos de 21km, 7km, 3km e Kids em cenário turístico.", "value": "R$ 20.000 – R$ 100.000", "valueLabel": "investimento", "period": "06/09/2026", "periodLabel": "data", "interestQuery": "Meia+Maratona+Laghetto", "hidden": false },
+        { "name": "2ª Edição AMRIGS Tennis Cup", "location": "Porto Alegre - RS", "description": "Torneio de tênis amador voltado ao setor de saúde, com ativações, serviços de saúde e networking qualificado.", "value": "R$ 20.000 – R$ 150.000", "valueLabel": "investimento", "period": "17–18/10/2026", "periodLabel": "data", "interestQuery": "AMRIGS+Tennis+Cup", "hidden": false },
+        { "name": "Inside the Court", "location": "Porto Alegre - RS", "description": "Experiência exclusiva com o ex-Top 8 do mundo Diego Schwartzman: clínica, interação com atletas e experiências premium para poucos convidados.", "value": "R$ 350.000", "valueLabel": "investimento", "period": "Nov/2026", "periodLabel": "período", "interestQuery": "Inside+the+Court", "hidden": false },
+        { "name": "11ª Edição Matriz Skate Pro", "location": "Porto Alegre - RS", "description": "Um dos eventos de street skate mais tradicionais do Brasil, com parceria da Confederação Brasileira de Skateboarding em 2026.", "value": "R$ 350.000 – R$ 1.000.000", "valueLabel": "investimento", "period": "Nov/2026", "periodLabel": "período", "interestQuery": "Matriz+Skate+Pro", "hidden": false }
+      ]
+    },
+    {
+      "slug": "espacos-publicos",
+      "navLabel": "Espaços Públicos",
+      "titleLine": "Espaços Públicos · meets with history",
+      "colorClass": "v-espacos",
+      "tintClass": "vtint-espacos",
+      "intro": "",
+      "cards": [
+        { "name": "Cais Mauá", "location": "Porto Alegre - RS", "description": "Complexo histórico e cultural às margens do Guaíba, com espaços para eventos, gastronomia, cultura e lazer.", "value": "R$ 50.000 – R$ 2.000.000", "valueLabel": "patrocínio/ativação", "period": "2026–2028", "periodLabel": "período", "interestQuery": "Cais+Maua", "hidden": false },
+        { "name": "Parque Unipraias", "location": "Balneário Camboriú - SC", "description": "Complexo turístico com teleférico e trilhas ecológicas, recebendo mais de 1 milhão de visitantes por ano.", "value": "R$ 400.000/mês", "valueLabel": "investimento", "period": "5 anos", "periodLabel": "período", "interestQuery": "Parque+Unipraias", "hidden": false },
+        { "name": "Edifício Martinelli", "location": "São Paulo - SP", "description": "Primeiro arranha-céu da América Latina, marco arquitetônico com vista panorâmica e eventos culturais.", "value": "R$ 2.000.000 – R$ 6.000.000/ano", "valueLabel": "patrocínio · naming R$ 100.000.000 – R$ 150.000.000", "period": "2025–2027", "periodLabel": "período", "interestQuery": "Edificio+Martinelli", "hidden": false }
+      ]
+    },
+    {
+      "slug": "cultura",
+      "navLabel": "Cultura",
+      "titleLine": "Cultura · meets with art",
+      "colorClass": "v-cultura",
+      "tintClass": "vtint-cultura",
+      "intro": "",
+      "cards": [
+        { "name": "Centro Cultural Caldeira", "location": "Porto Alegre - RS", "description": "Coração de um polo de inovação e criatividade do Instituto Caldeira, com projeto aprovado via Lei Rouanet.", "value": "R$ 250.000 – R$ 1.500.000", "valueLabel": "investimento", "period": "2025–2027", "periodLabel": "período", "interestQuery": "Centro+Cultural+Caldeira", "hidden": false },
+        { "name": "400 Anos das Missões Jesuíticas", "location": "São Miguel das Missões - RS", "description": "Comemoração de um patrimônio histórico e cultural de reconhecimento mundial, com eventos culturais, educativos e turísticos.", "value": "R$ 6.000.000", "valueLabel": "(R$ 2.500.000 via Lei Rouanet)", "period": "Nov/2026", "periodLabel": "período", "interestQuery": "400+Anos+das+Missoes", "hidden": false },
+        { "name": "Filme \"O Segredo de Táθos\"", "location": "Fantástico Laboratório", "description": "Aventura familiar brasileira com o robô Byte — plataforma de entretenimento, educação e licenciamento, com incentivo via Lei do Audiovisual e ProAC ICMS.", "value": "R$ 220.000 – R$ 580.000", "valueLabel": "investimento", "period": "2026", "periodLabel": "período", "interestQuery": "Filme+Fantastico+Laboratorio", "hidden": false },
+        { "name": "Primavera Musical", "location": "Porto Alegre e Região Metropolitana", "description": "No primeiro dia da primavera, música instrumental em locais públicos e privados celebrando o renascimento e a esperança da estação.", "value": "R$ 30.000 – R$ 200.000", "valueLabel": "investimento", "period": "Set/2026", "periodLabel": "período", "interestQuery": "Primavera+Musical", "hidden": false }
+      ]
+    },
+    {
+      "slug": "gastronomia",
+      "navLabel": "Gastronomia",
+      "titleLine": "Gastronomia · meets with taste",
+      "colorClass": "v-gastronomia",
+      "tintClass": "vtint-gastronomia",
+      "intro": "",
+      "cards": [
+        { "name": "Sal, Brasa et al", "location": "Itu - SP", "description": "Festival Mundial do Churrasco: três dias de gastronomia, cultura e entretenimento, com competições internacionais e 50 mil visitantes esperados.", "value": "R$ 50.500 – R$ 3.000.000", "valueLabel": "investimento", "period": "2º sem. 2027", "periodLabel": "período", "interestQuery": "Sal+Brasa+et+al", "hidden": false },
+        { "name": "Le Cordon Bleu Dinner Experience", "location": "São Paulo - SP", "description": "Jantar com aula exclusiva conduzida por experts da renomada escola de gastronomia, associando sua marca a prestígio e requinte.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Le+Cordon+Bleu", "hidden": false },
+        { "name": "Experience Chef Fabi Artmann", "location": "Porto Alegre - RS", "description": "Café da manhã, almoços e jantares exclusivos de alto padrão para empresas e grupos selecionados, com chef formada no Institut Paul Bocuse.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Chef+Fabi+Artmann", "hidden": false }
+      ]
+    },
+    {
+      "slug": "negocios",
+      "navLabel": "Negócios",
+      "titleLine": "Negócios · meets with trust",
+      "colorClass": "v-negocios",
+      "tintClass": "vtint-negocios",
+      "intro": "",
+      "cards": [
+        { "name": "Painel LIDE", "location": "Rio Grande do Sul & Santa Catarina", "description": "Networking de alto nível entre líderes empresariais, com protagonismo em 4 iniciativas do LIDE RS/SC e destaque no Prêmio Líderes Anual.", "value": "A partir de R$ 150.000", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Painel+LIDE", "hidden": false },
+        { "name": "Forbes Under 30", "location": "Porto Alegre - RS", "description": "Evento que reúne jovens talentos e líderes reconhecidos pela Forbes, com palestras, workshops e networking.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Forbes+Under+30", "hidden": false },
+        { "name": "The Better-Cities Event", "location": "Porto Alegre - RS (by Urban Futures)", "description": "Líderes urbanos e especialistas discutindo sustentabilidade, mobilidade e tecnologia para as cidades do futuro.", "value": "Sob consulta", "valueLabel": "investimento", "period": "2º sem. 2027", "periodLabel": "período", "interestQuery": "Better-Cities+Event", "hidden": false },
+        { "name": "Expointer — ExpoMentes", "location": "Esteio - RS", "description": "Plataforma de conteúdo e negócios dentro da maior feira do agronegócio da América Latina, com aprovação via Lei Rouanet.", "value": "R$ 100.000 – R$ 997.000", "valueLabel": "investimento", "period": "30/08–07/09/2026", "periodLabel": "período", "interestQuery": "ExpoMentes", "hidden": false },
+        { "name": "Encontro Nacional do Futebol Feminino", "location": "Arena do Grêmio, Porto Alegre - RS", "description": "Conteúdo, networking e negócios no ciclo da Copa do Mundo Feminina FIFA 2027, com foco em diversidade e protagonismo feminino.", "value": "R$ 10.000 – R$ 50.000", "valueLabel": "investimento", "period": "24–25/09/2026", "periodLabel": "período", "interestQuery": "Futebol+Feminino", "hidden": false },
+        { "name": "Transcend Wellness", "location": "Gramado - RS", "description": "Hub de inovação, saúde, longevidade e wellness — conteúdo, networking e negócios no coração da Serra Gaúcha.", "value": "Sob consulta", "valueLabel": "investimento", "period": "21–23/04/2027", "periodLabel": "período", "interestQuery": "Transcend+Wellness", "hidden": false },
+        { "name": "3ª Edição Summit Empreender 40+", "location": "Porto Alegre - RS", "description": "Maior ecossistema do Brasil focado em transformar experiência em vantagem competitiva; última edição impactou mais de 250 mil pessoas.", "value": "R$ 50.000 – R$ 450.000", "valueLabel": "investimento", "period": "2027", "periodLabel": "período", "interestQuery": "Summit+Empreender+40", "hidden": false },
+        { "name": "Health Business Meeting", "location": "Porto Alegre - RS", "description": "Dois dias de imersão para médicos, dentistas e gestores de clínicas em aprendizado, networking e estratégias de gestão.", "value": "R$ 15.000 – R$ 50.000", "valueLabel": "investimento", "period": "2027", "periodLabel": "período", "interestQuery": "Health+Business+Meeting", "hidden": false }
+      ]
+    },
+    {
+      "slug": "tecnologia",
+      "navLabel": "Tecnologia",
+      "titleLine": "Tecnologia · meets with innovation",
+      "colorClass": "v-tecnologia",
+      "tintClass": "vtint-tecnologia",
+      "intro": "",
+      "cards": [
+        { "name": "Olimpíada Brasileira de Meio Ambiente e Sustentabilidade", "location": "Nacional", "description": "Competição científica gratuita e inclusiva para estudantes do ensino fundamental e médio, com formato híbrido e escalável.", "value": "R$ 150.000 – R$ 2.000.000", "valueLabel": "investimento", "period": "Anual", "periodLabel": "período", "interestQuery": "Olimpiada+Sustentabilidade", "hidden": false },
+        { "name": "Smart City of Rock", "location": "Lisboa - Portugal", "description": "Parceria com a Rock World para levar tecnologia e conectividade à \"Cidade do Rock\" do Rock in Rio.", "value": "€ 80.000 – R$ 800.000", "valueLabel": "investimento", "period": "2026–2027", "periodLabel": "período", "interestQuery": "Smart+City+of+Rock", "hidden": false }
+      ]
+    },
+    {
+      "slug": "comunicacao",
+      "navLabel": "Communication & Influence",
+      "titleLine": "Communication & Influence · meets with content",
+      "colorClass": "v-comunicacao",
+      "tintClass": "vtint-comunicacao",
+      "intro": "",
+      "cards": [
+        { "name": "Fernando Carvalho — Base-FC", "location": "Futebol, liderança e gestão", "description": "Ex-presidente de um dos ciclos mais vitoriosos do Internacional (Libertadores e Mundial 2006), hoje palestrante e criador de conteúdo.", "value": "R$ 20.000 – R$ 60.000", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Fernando+Carvalho", "hidden": false },
+        { "name": "Luciano Potter", "location": "Potter Entrevista · Aquela História · Histórias do Potter", "description": "25+ anos de Grupo RBS, referência de comunicação no Sul do Brasil, com produtos que aproximam marcas de nomes relevantes.", "value": "R$ 22.500 – R$ 30.000", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Luciano+Potter", "hidden": false },
+        { "name": "Brunna Colossi", "location": "@bru_colossi", "description": "Influenciadora e jornalista, com passagens pelo Grupo RBS e SBT — conexão autêntica e engajada com sua audiência.", "value": "R$ 8.500 – R$ 30.000", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Brunna+Colossi", "hidden": false },
+        { "name": "Fábio Almeida", "location": "Caso a Caso Podcast · @fabionoar", "description": "Jornalista investigativo com 20+ anos de experiência (RBS, Fantástico/Globo), hoje à frente do Caso a Caso Podcast.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Fabio+Almeida", "hidden": false }
+      ]
+    },
+    {
+      "slug": "social",
+      "navLabel": "Social",
+      "titleLine": "Social · meets with purpose",
+      "colorClass": "v-social",
+      "tintClass": "vtint-social",
+      "intro": "Iniciativas institucionais e sociais com as quais sua marca pode se associar para gerar impacto real na comunidade gaúcha. Nestes projetos a equipe da MeetandGreat.Co atua pró bono.",
+      "cards": [
+        { "name": "RSNASCE", "location": "", "description": "Iniciativa social ligada ao ecossistema de inovação do RS.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "RSNASCE", "hidden": false },
+        { "name": "Pacto Alegre", "location": "", "description": "Mobilização institucional em torno do desenvolvimento de Porto Alegre.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Pacto+Alegre", "hidden": false },
+        { "name": "Instituto Retomada", "location": "", "description": "Projeto social com foco em reconstrução e resiliência da comunidade.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Instituto+Retomada", "hidden": false },
+        { "name": "CPOR Porto Alegre", "location": "", "description": "Iniciativa institucional ligada à formação e cidadania.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "CPOR+Porto+Alegre", "hidden": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "intro": {
+    "title": "Seja um parceiro comercial",
+    "description": "Somos procurados por marcas em busca de patrocínio — e ampliamos essa frente com uma rede de executivos comerciais externos e autônomos que representam nosso portfólio junto às suas próprias carteiras de contatos."
+  },
+  "diffs": {
+    "items": [
+      { "title": "Portfólio pronto para vender", "description": "Acesso a dezenas de oportunidades de patrocínio já estruturadas, em esportes, cultura, negócios, gastronomia, tecnologia e mais — sem precisar criar material do zero.", "hidden": false },
+      { "title": "Comissionamento por resultado", "description": "Modelo de remuneração vinculado às vendas fechadas por meio da sua indicação ou representação comercial.", "hidden": false },
+      { "title": "Flexibilidade", "description": "Atue como autônomo, no seu ritmo, usando sua rede de relacionamento com marcas e empresas da sua região.", "hidden": false },
+      { "title": "Suporte da nossa equipe", "description": "Materiais, propostas e apoio direto do time da MeetandGreat.Co para fechar negócio com segurança.", "hidden": false }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Prefere falar antes de se cadastrar?",
+    "description": "Tire suas dúvidas diretamente com o nosso time.",
+    "primaryText": "Enviar e-mail",
+    "primaryLink": "mailto:thiago@meetandgreat.co"
+  }
+}

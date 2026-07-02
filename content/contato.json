@@ -1,0 +1,10 @@
+{
+  "intro": {
+    "title": "Fale com a gente",
+    "description": "Conte um pouco sobre sua marca e o que você busca — vamos indicar a melhor oportunidade do nosso portfólio ou desenhar algo sob medida."
+  },
+  "people": [
+    { "name": "Thiago Ribeiro", "role": "Founder", "email": "thiago@meetandgreat.co", "hidden": false },
+    { "name": "Alexandre Akira", "role": "Cofounder", "email": "akira@meetandgreat.co", "hidden": false }
+  ]
+}
