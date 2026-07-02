@@ -1,0 +1,236 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+locale: "pt"
+
+collections:
+  - name: "home"
+    label: "Página Inicial"
+    files:
+      - file: "content/home.json"
+        label: "Conteúdo da Home"
+        name: "home"
+        fields:
+          - label: "Topo (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto de apoio", name: "lead", widget: "text" }
+              - { label: "Botão primário — texto", name: "ctaPrimaryText", widget: "string" }
+              - { label: "Botão primário — link", name: "ctaPrimaryLink", widget: "string" }
+              - { label: "Botão secundário — texto", name: "ctaSecondaryText", widget: "string" }
+              - { label: "Botão secundário — link", name: "ctaSecondaryLink", widget: "string" }
+          - label: "O que fazemos"
+            name: "whatWeDo"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow (rótulo pequeno)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+              - label: "Itens"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Descrição", name: "description", widget: "text" }
+                  - { label: "Ocultar este item", name: "hidden", widget: "boolean", default: false }
+          - label: "Seção de Verticais (texto)"
+            name: "verticalsSection"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+          - label: "Nossos Cases"
+            name: "cases"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+              - label: "Foto de trás"
+                name: "photoBack"
+                widget: "object"
+                fields:
+                  - { label: "Imagem", name: "image", widget: "image" }
+                  - { label: "Legenda", name: "label", widget: "string" }
+              - label: "Foto da frente"
+                name: "photoFront"
+                widget: "object"
+                fields:
+                  - { label: "Imagem", name: "image", widget: "image" }
+                  - { label: "Legenda", name: "label", widget: "string" }
+              - label: "Números"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Valor (ex.: 200+)", name: "value", widget: "string" }
+                  - { label: "Descrição", name: "label", widget: "string" }
+          - label: "CTA Final"
+            name: "ctaFinal"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+              - { label: "Botão 1 — texto", name: "primaryText", widget: "string" }
+              - { label: "Botão 1 — link", name: "primaryLink", widget: "string" }
+              - { label: "Botão 2 — texto", name: "secondaryText", widget: "string" }
+              - { label: "Botão 2 — link", name: "secondaryLink", widget: "string" }
+
+  - name: "portfolio"
+    label: "Portfólio"
+    files:
+      - file: "content/portfolio.json"
+        label: "Conteúdo do Portfólio"
+        name: "portfolio"
+        fields:
+          - label: "Introdução da página"
+            name: "intro"
+            widget: "object"
+            fields:
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+          - label: "Verticais"
+            name: "verticals"
+            widget: "list"
+            summary: "{{navLabel}}"
+            fields:
+              - { label: "Identificador interno (não alterar)", name: "slug", widget: "string" }
+              - { label: "Nome no menu", name: "navLabel", widget: "string" }
+              - { label: "Título da seção", name: "titleLine", widget: "string" }
+              - { label: "Classe de cor (não alterar)", name: "colorClass", widget: "string" }
+              - { label: "Classe de estilo (não alterar)", name: "tintClass", widget: "string" }
+              - { label: "Texto introdutório da vertical", name: "intro", widget: "text", required: false }
+              - label: "Oportunidades (cards)"
+                name: "cards"
+                widget: "list"
+                summary: "{{name}}"
+                fields:
+                  - { label: "Nome da oportunidade", name: "name", widget: "string" }
+                  - { label: "Local", name: "location", widget: "string" }
+                  - { label: "Descrição", name: "description", widget: "text" }
+                  - { label: "Valor", name: "value", widget: "string" }
+                  - { label: "Legenda do valor (ex.: investimento)", name: "valueLabel", widget: "string" }
+                  - { label: "Período/Data", name: "period", widget: "string" }
+                  - { label: "Legenda do período (ex.: data)", name: "periodLabel", widget: "string" }
+                  - { label: "Parâmetro do botão de interesse (não alterar)", name: "interestQuery", widget: "string" }
+                  - { label: "Ocultar este card", name: "hidden", widget: "boolean", default: false }
+
+  - name: "sobre"
+    label: "Sobre"
+    files:
+      - file: "content/sobre.json"
+        label: "Conteúdo da página Sobre"
+        name: "sobre"
+        fields:
+          - label: "Introdução"
+            name: "intro"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+          - label: "Missão"
+            name: "missao"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+              - label: "Diferenciais"
+                name: "items"
+                widget: "list"
+                summary: "{{title}}"
+                fields:
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Descrição", name: "description", widget: "text" }
+                  - { label: "Ocultar este item", name: "hidden", widget: "boolean", default: false }
+          - label: "Time"
+            name: "time"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - label: "Membros do time"
+                name: "members"
+                widget: "list"
+                summary: "{{name}}"
+                fields:
+                  - { label: "Nome", name: "name", widget: "string" }
+                  - { label: "Cargo", name: "role", widget: "string" }
+                  - { label: "Foto", name: "photo", widget: "image" }
+                  - { label: "Descrição", name: "description", widget: "text" }
+                  - { label: "E-mail", name: "email", widget: "string" }
+                  - { label: "Ocultar este card", name: "hidden", widget: "boolean", default: false }
+          - label: "CTA Final"
+            name: "ctaFinal"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+              - { label: "Botão 1 — texto", name: "primaryText", widget: "string" }
+              - { label: "Botão 1 — link", name: "primaryLink", widget: "string" }
+              - { label: "Botão 2 — texto", name: "secondaryText", widget: "string" }
+              - { label: "Botão 2 — link", name: "secondaryLink", widget: "string" }
+
+  - name: "cadastro"
+    label: "Cadastro Comercial"
+    files:
+      - file: "content/cadastro.json"
+        label: "Conteúdo do Cadastro Comercial"
+        name: "cadastro"
+        fields:
+          - label: "Introdução"
+            name: "intro"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+          - label: "Diferenciais"
+            name: "diffs"
+            widget: "object"
+            fields:
+              - label: "Itens"
+                name: "items"
+                widget: "list"
+                summary: "{{title}}"
+                fields:
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Descrição", name: "description", widget: "text" }
+                  - { label: "Ocultar este item", name: "hidden", widget: "boolean", default: false }
+          - label: "CTA Final"
+            name: "ctaFinal"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+              - { label: "Botão — texto", name: "primaryText", widget: "string" }
+              - { label: "Botão — link", name: "primaryLink", widget: "string" }
+
+  - name: "contato"
+    label: "Contato"
+    files:
+      - file: "content/contato.json"
+        label: "Conteúdo da página Contato"
+        name: "contato"
+        fields:
+          - label: "Introdução"
+            name: "intro"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+          - label: "Pessoas para contato direto"
+            name: "people"
+            widget: "list"
+            summary: "{{name}}"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "Cargo", name: "role", widget: "string" }
+              - { label: "E-mail", name: "email", widget: "string" }
+              - { label: "Ocultar este card", name: "hidden", widget: "boolean", default: false }
