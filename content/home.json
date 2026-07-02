@@ -25,8 +25,9 @@
   "cases": {
     "eyebrow": "Nossos cases",
     "title": "Histórico com eventos de peso no cenário nacional",
-    "description": "Do South Summit Brazil ao Prêmio iBest 2025, atuamos em projetos que já movimentaram multidões e viraram referência de construção de marca no Rio Grande do Sul e no Brasil.",
+    "description": "Do South Summit Brazil e Netshoes Run Porto Alegre ao Prêmio iBest 2025, atuamos em projetos que já movimentaram multidões e viraram referência de construção de marca no Rio Grande do Sul e no Brasil.",
     "photoBack": { "image": "assets/img/cases-southsummit.jpg", "label": "South Summit Brazil" },
+    "photoMid": { "image": "assets/img/cases-netshoes.jpg", "label": "Netshoes Run Porto Alegre" },
     "photoFront": { "image": "assets/img/cases-ibest.jpg", "label": "Prêmio iBest 2025" },
     "stats": [
       { "value": "100 mil+", "label": "pessoas alcançadas presencialmente em ativações dos diferentes segmentos de atuação" },
