@@ -59,6 +59,12 @@ collections:
                 fields:
                   - { label: "Imagem", name: "image", widget: "image" }
                   - { label: "Legenda", name: "label", widget: "string" }
+              - label: "Foto do meio"
+                name: "photoMid"
+                widget: "object"
+                fields:
+                  - { label: "Imagem", name: "image", widget: "image" }
+                  - { label: "Legenda", name: "label", widget: "string" }
               - label: "Foto da frente"
                 name: "photoFront"
                 widget: "object"
