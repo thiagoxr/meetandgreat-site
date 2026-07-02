@@ -629,6 +629,25 @@ form.card-form {
 }
 .form-note { font-size: .82rem; color: var(--ink-soft); }
 
+.consent-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 18px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.consent-check input[type="checkbox"] {
+  margin-top: 3px;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  accent-color: var(--brand-blue);
+}
+.consent-check label { font-size: .85rem; color: var(--ink); line-height: 1.55; }
+.consent-check label b { font-weight: 700; }
+
 .contact-direct {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
