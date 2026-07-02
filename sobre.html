@@ -7,7 +7,7 @@
 <meta name="description" content="Conheça a MeetandGreat.Co e o time por trás da conexão entre marcas e as melhores oportunidades de patrocínio.">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body data-dynamic data-page="sobre">
 
 <header class="site-header">
   <div class="wrap">
@@ -33,7 +33,7 @@
   </div>
 </section>
 
-<section>
+<section id="missao">
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">Missão</span>
@@ -61,13 +61,13 @@
   </div>
 </section>
 
-<section class="bg-soft">
+<section class="bg-soft" id="time">
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">Time</span>
       <h2>Quem está por trás da MeetandGreat.Co</h2>
     </div>
-    <div style="display:grid;gap:24px;">
+    <div style="display:grid;gap:24px;" id="time-cards">
       <div class="team-card">
         <img src="assets/img/thiago.jpg" alt="Thiago Ribeiro">
         <div>
@@ -90,7 +90,7 @@
   </div>
 </section>
 
-<section class="bg-dark tight">
+<section class="bg-dark tight" id="cta-final">
   <div class="wrap">
     <div class="cta-banner" style="background:transparent;padding:0;">
       <div>
@@ -142,6 +142,7 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/content-render.js"></script>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
