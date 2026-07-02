@@ -244,7 +244,7 @@ section.tight { padding: 56px 0; }
   background-image: url("../img/texture-wave.jpg");
   background-size: cover;
   background-position: center;
-  opacity: .5;
+  opacity: .3;
   mix-blend-mode: multiply;
   pointer-events: none;
   z-index: 0;
