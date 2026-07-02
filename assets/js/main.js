@@ -38,6 +38,21 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  // Cases reveal gallery — click/tap toggles the reveal (desktop already
+  // gets it via CSS :hover; this covers touch devices and adds a11y parity).
+  document.querySelectorAll(".case-reveal-panel").forEach(function (panel) {
+    panel.addEventListener("click", function () {
+      var wasOpen = panel.classList.contains("is-open");
+      var group = panel.closest(".cases-reveal");
+      if (group) {
+        group.querySelectorAll(".case-reveal-panel").forEach(function (p) {
+          p.classList.remove("is-open");
+        });
+      }
+      if (!wasOpen) panel.classList.add("is-open");
+    });
+  });
+
   // Highlight current page in nav
   var path = window.location.pathname.split("/").pop() || "index.html";
   document.querySelectorAll("nav.main-nav a[href]").forEach(function (a) {
@@ -56,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // them once dynamically-fetched cards have been injected into the page) ----------
 window.MGReveal = {
   initReveal: function () {
-    var revealSelector = ".diff-item, .opp-card, .vertical-card, .team-card, .case-card, .contact-direct .person, .stats-band .stat, .section-head";
+    var revealSelector = ".diff-item, .opp-card, .vertical-card, .team-card, .case-reveal-panel, .contact-direct .person, .stats-band .stat, .section-head";
     var items = document.querySelectorAll(revealSelector + ":not(.reveal-armed)");
     if (!items.length) return;
     items.forEach(function (el) { el.classList.add("reveal-armed"); });
