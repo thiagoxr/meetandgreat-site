@@ -45,12 +45,21 @@ document.addEventListener("DOMContentLoaded", function () {
     if (href === path) a.classList.add("active");
   });
 
-  // ---------- Scroll reveal ----------
-  // Fades + slides content blocks into view as they enter the viewport.
-  (function () {
+  // Static pages (no dynamic content-render.js on them) can reveal right away.
+  if (!document.body.hasAttribute("data-dynamic")) {
+    window.MGReveal.initReveal();
+    window.MGReveal.initCounters();
+  }
+});
+
+// ---------- Scroll reveal + counters (exposed so content-render.js can call
+// them once dynamically-fetched cards have been injected into the page) ----------
+window.MGReveal = {
+  initReveal: function () {
     var revealSelector = ".diff-item, .opp-card, .vertical-card, .team-card, .case-card, .contact-direct .person, .stats-band .stat, .section-head";
-    var items = document.querySelectorAll(revealSelector);
+    var items = document.querySelectorAll(revealSelector + ":not(.reveal-armed)");
     if (!items.length) return;
+    items.forEach(function (el) { el.classList.add("reveal-armed"); });
 
     var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduceMotion || !("IntersectionObserver" in window)) {
@@ -77,13 +86,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }, { threshold: 0.15, rootMargin: "0px 0px -40px 0px" });
 
     items.forEach(function (el) { observer.observe(el); });
-  })();
+  },
 
-  // ---------- Animated stat counters ----------
-  // Counts each stat number up from 0 the first time it scrolls into view.
-  (function () {
-    var stats = document.querySelectorAll(".stats-band .stat b");
+  initCounters: function () {
+    var stats = document.querySelectorAll(".stats-band .stat b:not(.counter-armed)");
     if (!stats.length) return;
+    stats.forEach(function (el) { el.classList.add("counter-armed"); });
 
     var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduceMotion || !("IntersectionObserver" in window)) return;
@@ -116,5 +124,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }, { threshold: 0.4 });
 
     stats.forEach(function (el) { observer.observe(el); });
-  })();
-});
+  }
+};
