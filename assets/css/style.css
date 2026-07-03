@@ -432,7 +432,7 @@ section.tight { padding: 56px 0; }
   display: block;
   object-fit: cover;
   object-position: var(--pos, 50% 50%);
-  transform: scale(1.45);
+  transform: scale(1.16);
   transition: transform .65s cubic-bezier(.2,.8,.2,1), filter .65s ease;
   filter: grayscale(.15) brightness(.92);
 }
@@ -777,6 +777,6 @@ footer a.social-link svg { width: 16px; height: 16px; flex-shrink: 0; }
   .case-reveal-panel { height: 220px; }
   .case-reveal-overlay { opacity: 1; background: linear-gradient(180deg, rgba(16,24,74,0) 55%, rgba(16,24,74,.75) 100%); }
   .case-reveal-name { opacity: 1; transform: none; }
-  .case-reveal-panel img { transform: scale(1.15); }
+  .case-reveal-panel img { transform: scale(1.08); }
   .case-reveal-panel:hover img, .case-reveal-panel:focus-visible img, .case-reveal-panel.is-open img { transform: scale(1); }
 }
