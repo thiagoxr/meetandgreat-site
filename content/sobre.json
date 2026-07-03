@@ -8,18 +8,48 @@
     "title": "Conectar as melhores marcas às melhores oportunidades",
     "description": "Desenvolvemos a presença de nossos parceiros e promovemos experiências autênticas que permanecem na memória. Trabalhamos com um portfólio diversificado: esportes, espaços públicos, cultura, gastronomia, negócios, tecnologia, comunicação e causas sociais. Assim, encontramos o encaixe certo entre o objetivo de cada marca e o projeto certo para alcançá-lo.",
     "items": [
-      { "title": "Conhecimento e autoridade regional", "description": "Sede em Porto Alegre e relacionamento verdadeiro com o mercado do Rio Grande do Sul: a conexão que faltava entre sua marca e o Sul do país.", "hidden": false },
-      { "title": "Portfólio diversificado", "description": "Múltiplas verticais de oportunidade, reduzindo a dependência de um único nicho e ampliando as possibilidades de encaixe estratégico.", "hidden": false },
-      { "title": "Uso inteligente de incentivo fiscal", "description": "Vários projetos do portfólio têm aprovação via Lei Rouanet, ProAC ICMS e Lei do Audiovisual, reduzindo o custo efetivo do patrocínio.", "hidden": false },
-      { "title": "Cases com métricas reais", "description": "Histórico com eventos de peso, como o South Summit Brazil e o Prêmio iBest 2025, com resultados que já viraram referência no mercado.", "hidden": false }
+      {
+        "title": "Conhecimento e autoridade regional",
+        "description": "Sede em Porto Alegre e relacionamento verdadeiro com o mercado do Rio Grande do Sul: a conexão que faltava entre sua marca e o Sul do país.",
+        "hidden": false
+      },
+      {
+        "title": "Portfólio diversificado",
+        "description": "Múltiplas verticais de oportunidade, reduzindo a dependência de um único nicho e ampliando as possibilidades de encaixe estratégico.",
+        "hidden": false
+      },
+      {
+        "title": "Uso inteligente de incentivo fiscal",
+        "description": "Vários projetos do portfólio têm aprovação via Lei Rouanet, ProAC ICMS e Lei do Audiovisual, reduzindo o custo efetivo do patrocínio.",
+        "hidden": false
+      },
+      {
+        "title": "Cases com métricas reais",
+        "description": "Histórico com eventos de peso, como o South Summit Brazil e o Prêmio iBest 2025, com resultados que já viraram referência no mercado.",
+        "hidden": false
+      }
     ]
   },
   "time": {
     "eyebrow": "Time",
     "title": "Quem está por trás da MeetandGreat.Co",
     "members": [
-      { "name": "Thiago Ribeiro", "role": "Founder", "photo": "assets/img/thiago.jpg", "description": "15+ anos de atuação em eventos, marketing, captação de recursos e comunicação. Lidera a estratégia comercial e a curadoria do portfólio de oportunidades da MeetandGreat.Co.", "email": "thiago@meetandgreat.co", "hidden": false },
-      { "name": "Alexandre Akira", "role": "Cofounder", "photo": "assets/img/akira.jpg", "description": "Executivo com forte histórico em inovação e tecnologia, aliado a um perfil comercial que ajuda a estruturar novas frentes de negócio e parcerias estratégicas.", "email": "akira@meetandgreat.co", "hidden": false }
+      {
+        "name": "Thiago Ribeiro",
+        "role": "Founder",
+        "photo": "assets/img/thiago.jpg",
+        "description": "Mais de 15 anos de atuação em eventos, marketing, captação de recursos e comunicação. Lidera a companhia, a estratégia comercial e a curadoria do portfólio de oportunidades da MeetandGreat.Co.",
+        "email": "thiago@meetandgreat.co",
+        "hidden": false
+      },
+      {
+        "name": "Alexandre Akira",
+        "role": "Cofounder",
+        "photo": "assets/img/akira.jpg",
+        "description": "Executivo com forte histórico em inovação e tecnologia, aliado a um perfil comercial que ajuda a estruturar novas frentes de negócio e parcerias estratégicas.",
+        "email": "akira@meetandgreat.co",
+        "hidden": false
+      }
     ]
   },
   "ctaFinal": {
