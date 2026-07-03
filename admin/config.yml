@@ -21,10 +21,10 @@ collections:
             fields:
               - { label: "Título", name: "title", widget: "string" }
               - { label: "Texto de apoio", name: "lead", widget: "text" }
-              - { label: "Botão primário — texto", name: "ctaPrimaryText", widget: "string" }
-              - { label: "Botão primário — link", name: "ctaPrimaryLink", widget: "string" }
-              - { label: "Botão secundário — texto", name: "ctaSecondaryText", widget: "string" }
-              - { label: "Botão secundário — link", name: "ctaSecondaryLink", widget: "string" }
+              - { label: "Botão primário · texto", name: "ctaPrimaryText", widget: "string" }
+              - { label: "Botão primário · link", name: "ctaPrimaryLink", widget: "string" }
+              - { label: "Botão secundário · texto", name: "ctaSecondaryText", widget: "string" }
+              - { label: "Botão secundário · link", name: "ctaSecondaryLink", widget: "string" }
           - label: "O que fazemos"
             name: "whatWeDo"
             widget: "object"
@@ -53,20 +53,20 @@ collections:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
               - { label: "Título", name: "title", widget: "string" }
               - { label: "Descrição", name: "description", widget: "text" }
-              - label: "Foto de trás"
-                name: "photoBack"
+              - label: "Foto 1 (esquerda)"
+                name: "photoOne"
                 widget: "object"
                 fields:
                   - { label: "Imagem", name: "image", widget: "image" }
                   - { label: "Legenda", name: "label", widget: "string" }
-              - label: "Foto do meio"
-                name: "photoMid"
+              - label: "Foto 2 (meio)"
+                name: "photoTwo"
                 widget: "object"
                 fields:
                   - { label: "Imagem", name: "image", widget: "image" }
                   - { label: "Legenda", name: "label", widget: "string" }
-              - label: "Foto da frente"
-                name: "photoFront"
+              - label: "Foto 3 (direita)"
+                name: "photoThree"
                 widget: "object"
                 fields:
                   - { label: "Imagem", name: "image", widget: "image" }
@@ -83,10 +83,10 @@ collections:
             fields:
               - { label: "Título", name: "title", widget: "string" }
               - { label: "Descrição", name: "description", widget: "text" }
-              - { label: "Botão 1 — texto", name: "primaryText", widget: "string" }
-              - { label: "Botão 1 — link", name: "primaryLink", widget: "string" }
-              - { label: "Botão 2 — texto", name: "secondaryText", widget: "string" }
-              - { label: "Botão 2 — link", name: "secondaryLink", widget: "string" }
+              - { label: "Botão 1 · texto", name: "primaryText", widget: "string" }
+              - { label: "Botão 1 · link", name: "primaryLink", widget: "string" }
+              - { label: "Botão 2 · texto", name: "secondaryText", widget: "string" }
+              - { label: "Botão 2 · link", name: "secondaryLink", widget: "string" }
 
   - name: "portfolio"
     label: "Portfólio"
@@ -179,10 +179,10 @@ collections:
             fields:
               - { label: "Título", name: "title", widget: "string" }
               - { label: "Descrição", name: "description", widget: "text" }
-              - { label: "Botão 1 — texto", name: "primaryText", widget: "string" }
-              - { label: "Botão 1 — link", name: "primaryLink", widget: "string" }
-              - { label: "Botão 2 — texto", name: "secondaryText", widget: "string" }
-              - { label: "Botão 2 — link", name: "secondaryLink", widget: "string" }
+              - { label: "Botão 1 · texto", name: "primaryText", widget: "string" }
+              - { label: "Botão 1 · link", name: "primaryLink", widget: "string" }
+              - { label: "Botão 2 · texto", name: "secondaryText", widget: "string" }
+              - { label: "Botão 2 · link", name: "secondaryLink", widget: "string" }
 
   - name: "cadastro"
     label: "Cadastro Comercial"
@@ -215,8 +215,8 @@ collections:
             fields:
               - { label: "Título", name: "title", widget: "string" }
               - { label: "Descrição", name: "description", widget: "text" }
-              - { label: "Botão — texto", name: "primaryText", widget: "string" }
-              - { label: "Botão — link", name: "primaryLink", widget: "string" }
+              - { label: "Botão · texto", name: "primaryText", widget: "string" }
+              - { label: "Botão · link", name: "primaryLink", widget: "string" }
 
   - name: "contato"
     label: "Contato"
