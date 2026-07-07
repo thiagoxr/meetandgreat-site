@@ -49,6 +49,7 @@
           "periodLabel": "período",
           "interestQuery": "FT+Run",
           "hidden": false,
+          "image": "assets/img/portfolio/ft-run.jpg",
           "detail": "Organizada pela Fundação Tênis, a FT Run é um evento de corrida de rua em Porto Alegre que une esporte, inclusão social e bem-estar, arrecadando fundos para projetos educacionais que transformam a vida de jovens talentos.\n\nSeja um parceiro da FT Run e mostre que sua marca joga junto com a inclusão e o esporte."
         },
         {
@@ -260,6 +261,7 @@
           "periodLabel": "período",
           "interestQuery": "Sal+Brasa+et+al",
           "hidden": false,
+          "image": "assets/img/portfolio/sal-brasa-et-al.jpg",
           "detail": "Festival Mundial do Churrasco, uma celebração de três dias que reúne gastronomia, cultura e entretenimento, com competições internacionais, shows e ações sustentáveis, atraindo 50 mil visitantes do Brasil e do mundo.\n\nJunte-se a essa experiência pioneira que transforma a arte do churrasco em algo multissensorial."
         },
         {
@@ -519,7 +521,8 @@
           "period": "Sob consulta",
           "periodLabel": "período",
           "interestQuery": "RSNASCE",
-          "hidden": false
+          "hidden": false,
+          "detail": "Iniciativa social ligada ao ecossistema de inovação do Rio Grande do Sul, conectando empreendedores, instituições e comunidade em projetos que fortalecem o desenvolvimento local.\n\nApoie o RSNASCE e faça parte de um movimento pelo futuro do Estado."
         },
         {
           "name": "Pacto Alegre",
@@ -530,7 +533,8 @@
           "period": "Sob consulta",
           "periodLabel": "período",
           "interestQuery": "Pacto+Alegre",
-          "hidden": false
+          "hidden": false,
+          "detail": "Mobilização institucional que reúne lideranças públicas e privadas em torno do desenvolvimento de Porto Alegre, com ações voltadas à reconstrução e ao fortalecimento da cidade.\n\nApoie o Pacto Alegre e contribua para o futuro da Capital."
         },
         {
           "name": "Instituto Retomada",
@@ -541,7 +545,8 @@
           "period": "Sob consulta",
           "periodLabel": "período",
           "interestQuery": "Instituto+Retomada",
-          "hidden": false
+          "hidden": false,
+          "detail": "Projeto social com foco em reconstrução e resiliência da comunidade gaúcha, apoiando famílias e territórios atingidos a retomar sua rotina com dignidade.\n\nApoie o Instituto Retomada e ajude a reconstruir vidas."
         },
         {
           "name": "CPOR Porto Alegre",
@@ -552,7 +557,8 @@
           "period": "Sob consulta",
           "periodLabel": "período",
           "interestQuery": "CPOR+Porto+Alegre",
-          "hidden": false
+          "hidden": false,
+          "detail": "Iniciativa institucional ligada à formação e à cidadania, unindo disciplina, propósito e desenvolvimento de jovens lideranças no Rio Grande do Sul.\n\nApoie o CPOR Porto Alegre e invista na formação de novas gerações."
         }
       ]
     }
