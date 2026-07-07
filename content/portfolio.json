@@ -13,15 +13,122 @@
       "tintClass": "vtint-esportes",
       "intro": "",
       "cards": [
-        { "name": "Netshoes Run Tour Adidas 2026", "location": "São Paulo, Brasília e Recife", "description": "Um dos maiores circuitos de corridas de rua do País, com três etapas em 2026 e milhares de participantes por etapa.", "value": "R$ 17.500 – R$ 500.250", "valueLabel": "por etapa", "period": "2026", "periodLabel": "data/período", "interestQuery": "Netshoes+Run+Tour+Adidas+2026", "hidden": false },
-        { "name": "2ª Edição da Liga Run", "location": "Porto Alegre - RS", "description": "Corrida beneficente da Liga Feminina de Combate ao Câncer do RS, associando sua marca a uma causa de diagnóstico precoce e hábitos saudáveis.", "value": "R$ 15.000 – R$ 250.000", "valueLabel": "investimento", "period": "13/09/2026", "periodLabel": "data", "interestQuery": "Liga+Run", "hidden": false },
-        { "name": "FT Run · Fundação Tênis", "location": "Porto Alegre - RS", "description": "Corrida de rua que une esporte, inclusão social e bem-estar, com renda revertida a projetos educacionais para jovens.", "value": "R$ 50.000 – R$ 300.000", "valueLabel": "investimento", "period": "2º sem. 2026", "periodLabel": "período", "interestQuery": "FT+Run", "hidden": false },
-        { "name": "Panvel Run 2026", "location": "Porto Alegre - RS", "description": "Corrida de rua do Grupo Panvel com distâncias para todos os níveis, aquecimento, entretenimento e serviços de saúde.", "value": "R$ 40.000 – R$ 160.000", "valueLabel": "investimento", "period": "08/11/2026", "periodLabel": "data", "interestQuery": "Panvel+Run", "hidden": false },
-        { "name": "MegaRace OCR 2026", "location": "Rio Grande do Sul", "description": "Circuito de aventura e superação (OCR, Trail e Ninja), uma das mais potentes plataformas de posicionamento de marca no Sul do Brasil.", "value": "R$ 60.000 – R$ 360.000", "valueLabel": "por etapa", "period": "Temporada 2026", "periodLabel": "período", "interestQuery": "MegaRace+OCR+2026", "hidden": false },
-        { "name": "5ª Meia Maratona Laghetto", "location": "Gramado - RS", "description": "Corrida da Rede Laghetto de Hotéis na Serra Gaúcha, com percursos de 21km, 7km, 3km e Kids em cenário turístico.", "value": "R$ 20.000 – R$ 100.000", "valueLabel": "investimento", "period": "06/09/2026", "periodLabel": "data", "interestQuery": "Meia+Maratona+Laghetto", "hidden": false },
-        { "name": "2ª Edição AMRIGS Tennis Cup", "location": "Porto Alegre - RS", "description": "Torneio de tênis amador voltado ao setor de saúde, com ativações, serviços de saúde e networking qualificado.", "value": "R$ 20.000 – R$ 150.000", "valueLabel": "investimento", "period": "17–18/10/2026", "periodLabel": "data", "interestQuery": "AMRIGS+Tennis+Cup", "hidden": false },
-        { "name": "Inside the Court", "location": "Porto Alegre - RS", "description": "Experiência exclusiva com o ex-Top 8 do mundo Diego Schwartzman: clínica, interação com atletas e experiências premium para poucos convidados.", "value": "R$ 350.000", "valueLabel": "investimento", "period": "Nov/2026", "periodLabel": "período", "interestQuery": "Inside+the+Court", "hidden": false },
-        { "name": "11ª Edição Matriz Skate Pro", "location": "Porto Alegre - RS", "description": "Um dos eventos de street skate mais tradicionais do Brasil, com parceria da Confederação Brasileira de Skateboarding em 2026.", "value": "R$ 350.000 – R$ 1.000.000", "valueLabel": "investimento", "period": "Nov/2026", "periodLabel": "período", "interestQuery": "Matriz+Skate+Pro", "hidden": false }
+        {
+          "name": "Netshoes Run Tour Adidas 2026",
+          "location": "São Paulo, Brasília e Recife",
+          "description": "Um dos maiores circuitos de corridas de rua do País, com três etapas em 2026 e milhares de participantes por etapa.",
+          "value": "R$ 17.500 – R$ 500.250",
+          "valueLabel": "por etapa",
+          "period": "2026",
+          "periodLabel": "data/período",
+          "interestQuery": "Netshoes+Run+Tour+Adidas+2026",
+          "hidden": false,
+          "image": "assets/img/portfolio/netshoes-run-tour-adidas-2026.jpg",
+          "detail": "A Netshoes Run Tour Adidas é na atualidade um dos maiores circuitos de corridas de rua do País. O evento promove saúde e esporte em suas etapas, atraindo milhares de participantes por onde passa. Em 2026 serão realizadas três etapas nas cidades de São Paulo, Brasília e Recife, onde esta iniciativa tornou-se uma das principais plataformas de promoção e construção de marca do mercado brasileiro.\n\nQuer alcançar um público ativo e engajado? Seja parceiro da Netshoes Run Tour Adidas e veja sua marca disparar! Entre em contato e saiba como participar."
+        },
+        {
+          "name": "2ª Edição da Liga Run",
+          "location": "Porto Alegre - RS",
+          "description": "Corrida beneficente da Liga Feminina de Combate ao Câncer do RS, associando sua marca a uma causa de diagnóstico precoce e hábitos saudáveis.",
+          "value": "R$ 15.000 – R$ 250.000",
+          "valueLabel": "investimento",
+          "period": "13/09/2026",
+          "periodLabel": "data",
+          "interestQuery": "Liga+Run",
+          "hidden": false,
+          "image": "assets/img/portfolio/liga-run.jpg",
+          "detail": "A Liga Feminina de Combate ao Câncer do Rio Grande do Sul promove uma corrida de rua beneficente, visando arrecadar fundos e dar mais visibilidade aos projetos da entidade.\n\nA iniciativa, idealizada pela influenciadora e voluntária Antônia Ranzolin Falcão, também busca conscientizar sobre a importância do diagnóstico precoce do câncer e promover hábitos saudáveis. Trata-se de uma corrida com propósito que, além de oferecer visibilidade, proporciona a chance de associar sua marca a uma causa incrível.\n\nQue tal dar um passo em direção a um futuro com mais saúde e esperança? Seja um parceiro da Liga Run e ajude a transformar vidas."
+        },
+        {
+          "name": "FT Run · Fundação Tênis",
+          "location": "Porto Alegre - RS",
+          "description": "Corrida de rua que une esporte, inclusão social e bem-estar, com renda revertida a projetos educacionais para jovens.",
+          "value": "R$ 50.000 – R$ 300.000",
+          "valueLabel": "investimento",
+          "period": "2º sem. 2026",
+          "periodLabel": "período",
+          "interestQuery": "FT+Run",
+          "hidden": false,
+          "detail": "A FT Run, organizada pela Fundação Tênis, é um evento de corrida de rua que ocorre em Porto Alegre e visa unir esporte, inclusão social e bem-estar. A Fundação se dedica a transformar vidas através do tênis, oferecendo educação e oportunidades a jovens. O evento busca arrecadar fundos para esses projetos transformadores, proporcionando visibilidade de marca e impacto social.\n\nQue tal fazer a diferença na vida de jovens talentos? Seja um parceiro da FT Run e mostre que sua marca joga junto com a inclusão e o esporte."
+        },
+        {
+          "name": "Panvel Run 2026",
+          "location": "Porto Alegre - RS",
+          "description": "Corrida de rua do Grupo Panvel com distâncias para todos os níveis, aquecimento, entretenimento e serviços de saúde.",
+          "value": "R$ 40.000 – R$ 160.000",
+          "valueLabel": "investimento",
+          "period": "08/11/2026",
+          "periodLabel": "data",
+          "interestQuery": "Panvel+Run",
+          "hidden": false,
+          "image": "assets/img/portfolio/panvel-run.jpg",
+          "detail": "A Panvel Run é a corrida de rua organizada pelo Grupo Panvel, com foco em promover saúde e bem-estar para seus clientes e a comunidade em geral. O evento oferece distâncias para atender a todos os níveis de corredores, desde iniciantes até atletas experientes. Além da corrida, a Panvel Run oferece atrações como aquecimento, atividades de entretenimento e serviços de saúde para os participantes.\n\nQuer associar sua marca a um evento que promove saúde, bem-estar e um estilo de vida ativo? Apoie a Panvel Run e aumente sua visibilidade enquanto impacta positivamente a comunidade."
+        },
+        {
+          "name": "MegaRace OCR 2026",
+          "location": "Rio Grande do Sul",
+          "description": "Circuito de aventura e superação (OCR, Trail e Ninja), uma das mais potentes plataformas de posicionamento de marca no Sul do Brasil.",
+          "value": "R$ 60.000 – R$ 360.000",
+          "valueLabel": "por etapa",
+          "period": "Temporada 2026",
+          "periodLabel": "período",
+          "interestQuery": "MegaRace+OCR+2026",
+          "hidden": false,
+          "image": "assets/img/portfolio/megarace-ocr-2026.jpg",
+          "detail": "A MegaRace 2026 é um circuito de aventura e superação que garante visibilidade e alto impacto. A reunião de experiências esportivas de sucesso, OCR, Trail e Ninja, atrai milhares de atletas e famílias apaixonadas por um estilo de vida mais saudável.\n\nSomos hoje uma das mais potentes plataformas de construção e posicionamento de marca no Sul do Brasil. Com a MegaRace, sua empresa se alinha aos conceitos de excelência e superação, elevando a percepção de valor e confiança do negócio.\n\nEste é o palco onde as marcas se conectam diretamente com um público altamente qualificado e conquistam o pódio do engajamento."
+        },
+        {
+          "name": "5ª Meia Maratona Laghetto",
+          "location": "Gramado - RS",
+          "description": "Corrida da Rede Laghetto de Hotéis na Serra Gaúcha, com percursos de 21km, 7km, 3km e Kids em cenário turístico.",
+          "value": "R$ 20.000 – R$ 100.000",
+          "valueLabel": "investimento",
+          "period": "06/09/2026",
+          "periodLabel": "data",
+          "interestQuery": "Meia+Maratona+Laghetto",
+          "hidden": false,
+          "image": "assets/img/portfolio/meia-maratona-laghetto.jpg",
+          "detail": "A Meia Maratona Laghetto é a corrida organizada pela Rede Laghetto de Hotéis, em Gramado, na Serra Gaúcha. O evento atrai corredores de diversos níveis, oferecendo percursos desafiadores e belas paisagens da região. Além da prova principal de 21km, costuma incluir outras distâncias, como Kids, 3km e 7km, sempre com foco em turismo, esporte e bem-estar.\n\nQue tal aproveitar a visibilidade da Serra Gaúcha para destacar sua marca? Seja parceiro da Meia Maratona Laghetto e conquiste um público seleto em um cenário inspirador."
+        },
+        {
+          "name": "2ª Edição AMRIGS Tennis Cup",
+          "location": "Porto Alegre - RS",
+          "description": "Torneio de tênis amador voltado ao setor de saúde, com ativações, serviços de saúde e networking qualificado.",
+          "value": "R$ 20.000 – R$ 150.000",
+          "valueLabel": "investimento",
+          "period": "17–18/10/2026",
+          "periodLabel": "data",
+          "interestQuery": "AMRIGS+Tennis+Cup",
+          "hidden": false,
+          "image": "assets/img/portfolio/amrigs-tennis-cup.jpg",
+          "detail": "A 2ª Edição do Tennis Cup agora tem o naming da AMRIGS e traz o torneio de tênis amador voltado ao público do setor de saúde. O evento busca incentivar a prática esportiva, a saúde e o bem-estar, proporcionando um ambiente de competição saudável e oportunidades de networking, além de ativações e serviços de saúde para os participantes.\n\nQue tal associar sua marca à saúde e ao esporte? Seja um parceiro da AMRIGS Tennis Cup e conecte-se com um público seleto em um ambiente de bem-estar e competição."
+        },
+        {
+          "name": "Inside the Court",
+          "location": "Porto Alegre - RS",
+          "description": "Experiência exclusiva com o ex-Top 8 do mundo Diego Schwartzman: clínica, interação com atletas e experiências premium para poucos convidados.",
+          "value": "R$ 350.000",
+          "valueLabel": "investimento",
+          "period": "Nov/2026",
+          "periodLabel": "período",
+          "interestQuery": "Inside+the+Court",
+          "hidden": false,
+          "image": "assets/img/portfolio/inside-the-court.jpg",
+          "detail": "O Inside the Court é uma experiência exclusiva que traz a Porto Alegre o ex-Top 8 do mundo Diego Schwartzman, para uma jornada imersiva dentro e fora da quadra. Um evento criado para poucos, conectando esporte, relacionamento e lifestyle em um ambiente sofisticado e altamente selecionado.\n\nMais do que assistir, os convidados terão a oportunidade de viver o tênis de forma única, com clínica, interação direta com atletas e experiências premium ao longo do dia. Uma plataforma proprietária pensada para marcas que desejam se associar a experiências memoráveis, conexão e alto nível."
+        },
+        {
+          "name": "11ª Edição Matriz Skate Pro",
+          "location": "Porto Alegre - RS",
+          "description": "Um dos eventos de street skate mais tradicionais do Brasil, com parceria da Confederação Brasileira de Skateboarding em 2026.",
+          "value": "R$ 350.000 – R$ 1.000.000",
+          "valueLabel": "investimento",
+          "period": "Nov/2026",
+          "periodLabel": "período",
+          "interestQuery": "Matriz+Skate+Pro",
+          "hidden": false,
+          "image": "assets/img/portfolio/matriz-skate-pro.jpg",
+          "detail": "O Campeonato Matriz Skate Pro é um dos eventos de street skate mais tradicionais do Brasil, reconhecido por revelar talentos e promover a cultura urbana desde a década de 90. Em 2026, com a parceria estratégica da Confederação Brasileira de Skateboarding, o evento amplia seu impacto, reforçando a tradição e o protagonismo das pistas de Porto Alegre no cenário do skate nacional e internacional.\n\nQue tal decolar com sua marca em um evento que já é referência no skate brasileiro? Seja parceiro do Matriz Skate Pro e conecte-se com um público apaixonado por esportes e cultura urbana."
+        }
       ]
     },
     {
@@ -32,9 +139,45 @@
       "tintClass": "vtint-espacos",
       "intro": "",
       "cards": [
-        { "name": "Cais Mauá", "location": "Porto Alegre - RS", "description": "Complexo histórico e cultural às margens do Guaíba, com espaços para eventos, gastronomia, cultura e lazer.", "value": "R$ 50.000 – R$ 2.000.000", "valueLabel": "patrocínio/ativação", "period": "2026–2028", "periodLabel": "período", "interestQuery": "Cais+Maua", "hidden": false },
-        { "name": "Parque Unipraias", "location": "Balneário Camboriú - SC", "description": "Complexo turístico com teleférico e trilhas ecológicas, recebendo mais de 1 milhão de visitantes por ano.", "value": "R$ 400.000/mês", "valueLabel": "investimento", "period": "5 anos", "periodLabel": "período", "interestQuery": "Parque+Unipraias", "hidden": false },
-        { "name": "Edifício Martinelli", "location": "São Paulo - SP", "description": "Primeiro arranha-céu da América Latina, marco arquitetônico com vista panorâmica e eventos culturais.", "value": "R$ 2.000.000 – R$ 6.000.000/ano", "valueLabel": "patrocínio · naming R$ 100.000.000 – R$ 150.000.000", "period": "2025–2027", "periodLabel": "período", "interestQuery": "Edificio+Martinelli", "hidden": false }
+        {
+          "name": "Cais Mauá",
+          "location": "Porto Alegre - RS",
+          "description": "Complexo histórico e cultural às margens do Guaíba, com espaços para eventos, gastronomia, cultura e lazer.",
+          "value": "R$ 50.000 – R$ 2.000.000",
+          "valueLabel": "patrocínio/ativação",
+          "period": "2026–2028",
+          "periodLabel": "período",
+          "interestQuery": "Cais+Maua",
+          "hidden": false,
+          "image": "assets/img/portfolio/cais-maua.jpg",
+          "detail": "O Cais Mauá é um complexo histórico e cultural às margens do Guaíba, em Porto Alegre. Com uma rica história ligada ao desenvolvimento da cidade, oferece espaços para eventos, gastronomia, cultura e lazer, atraindo moradores e turistas em busca de experiências únicas e um contato com a história da Capital.\n\nQue tal dar um novo horizonte para sua marca, associando-a a um ícone de Porto Alegre? Seja um parceiro do Cais Mauá e conecte-se com um público diversificado em um ambiente de história, cultura e entretenimento."
+        },
+        {
+          "name": "Parque Unipraias",
+          "location": "Balneário Camboriú - SC",
+          "description": "Complexo turístico com teleférico e trilhas ecológicas, recebendo mais de 1 milhão de visitantes por ano.",
+          "value": "R$ 400.000/mês",
+          "valueLabel": "investimento",
+          "period": "5 anos",
+          "periodLabel": "período",
+          "interestQuery": "Parque+Unipraias",
+          "hidden": false,
+          "image": "assets/img/portfolio/parque-unipraias.jpg",
+          "detail": "O Parque Unipraias, localizado em Balneário Camboriú, é um complexo turístico que oferece atrações como teleférico, trilhas ecológicas, mirantes com vistas panorâmicas e o trenó de montanha Youhooo!. Recebendo mais de 1 milhão de visitantes por ano, o parque proporciona experiências únicas em meio à natureza, conectando a Praia Central à Praia de Laranjeiras e à Mata Atlântica.\n\nQue tal levar sua marca a um público diversificado e em busca de experiências inesquecíveis? Seja um parceiro do Parque Unipraias e conecte sua marca a um destino turístico consolidado, com grande visibilidade e potencial de impacto."
+        },
+        {
+          "name": "Edifício Martinelli",
+          "location": "São Paulo - SP",
+          "description": "Primeiro arranha-céu da América Latina, marco arquitetônico com vista panorâmica e eventos culturais.",
+          "value": "R$ 2.000.000 – R$ 6.000.000/ano",
+          "valueLabel": "patrocínio · naming R$ 100.000.000 – R$ 150.000.000",
+          "period": "2025–2027",
+          "periodLabel": "período",
+          "interestQuery": "Edificio+Martinelli",
+          "hidden": false,
+          "image": "assets/img/portfolio/edificio-martinelli.jpg",
+          "detail": "O Edifício Martinelli, localizado no centro de São Paulo, é um marco arquitetônico e histórico da cidade. Construído na década de 1920, foi o primeiro arranha-céu da América Latina e hoje oferece aos visitantes a oportunidade de conhecer sua história, apreciar a vista panorâmica da cidade e participar de eventos culturais.\n\nQue tal elevar sua marca a um novo patamar, associando-a a um ícone da arquitetura e da história de São Paulo? Seja um parceiro do Edifício Martinelli e conecte-se com um público diversificado em um ambiente de cultura e sofisticação."
+        }
       ]
     },
     {
@@ -45,10 +188,58 @@
       "tintClass": "vtint-cultura",
       "intro": "",
       "cards": [
-        { "name": "Centro Cultural Caldeira", "location": "Porto Alegre - RS", "description": "Coração de um polo de inovação e criatividade do Instituto Caldeira, com projeto aprovado via Lei Rouanet.", "value": "R$ 250.000 – R$ 1.500.000", "valueLabel": "investimento", "period": "2025–2027", "periodLabel": "período", "interestQuery": "Centro+Cultural+Caldeira", "hidden": false },
-        { "name": "400 Anos das Missões Jesuíticas", "location": "São Miguel das Missões - RS", "description": "Comemoração de um patrimônio histórico e cultural de reconhecimento mundial, com eventos culturais, educativos e turísticos.", "value": "R$ 6.000.000", "valueLabel": "(R$ 2.500.000 via Lei Rouanet)", "period": "Nov/2026", "periodLabel": "período", "interestQuery": "400+Anos+das+Missoes", "hidden": false },
-        { "name": "Filme \"O Segredo de Táθos\"", "location": "Fantástico Laboratório", "description": "Aventura familiar brasileira com o robô Byte, uma plataforma de entretenimento, educação e licenciamento, com incentivo via Lei do Audiovisual e ProAC ICMS.", "value": "R$ 220.000 – R$ 580.000", "valueLabel": "investimento", "period": "2026", "periodLabel": "período", "interestQuery": "Filme+Fantastico+Laboratorio", "hidden": false },
-        { "name": "Primavera Musical", "location": "Porto Alegre e Região Metropolitana", "description": "No primeiro dia da primavera, música instrumental em locais públicos e privados celebrando o renascimento e a esperança da estação.", "value": "R$ 30.000 – R$ 200.000", "valueLabel": "investimento", "period": "Set/2026", "periodLabel": "período", "interestQuery": "Primavera+Musical", "hidden": false }
+        {
+          "name": "Centro Cultural Caldeira",
+          "location": "Porto Alegre - RS",
+          "description": "Coração de um polo de inovação e criatividade do Instituto Caldeira, com projeto aprovado via Lei Rouanet.",
+          "value": "R$ 250.000 – R$ 1.500.000",
+          "valueLabel": "investimento",
+          "period": "2025–2027",
+          "periodLabel": "período",
+          "interestQuery": "Centro+Cultural+Caldeira",
+          "hidden": false,
+          "image": "assets/img/portfolio/centro-cultural-caldeira.jpg",
+          "detail": "O Centro Cultural Caldeira é o coração de um polo de inovação e criatividade que o Instituto Caldeira está construindo em Porto Alegre. Mais do que um espaço físico, é um ecossistema dedicado à transformação através da cultura, com papel central no desenvolvimento de um distrito vibrante.\n\nQue tal impulsionar sua marca no epicentro da inovação e da criatividade da Capital? Seja parceiro do Centro Cultural Caldeira e conecte-se com um ambiente de transformação e inspiração."
+        },
+        {
+          "name": "400 Anos das Missões Jesuíticas",
+          "location": "São Miguel das Missões - RS",
+          "description": "Comemoração de um patrimônio histórico e cultural de reconhecimento mundial, com eventos culturais, educativos e turísticos.",
+          "value": "R$ 6.000.000",
+          "valueLabel": "(R$ 2.500.000 via Lei Rouanet)",
+          "period": "Nov/2026",
+          "periodLabel": "período",
+          "interestQuery": "400+Anos+das+Missoes",
+          "hidden": false,
+          "image": "assets/img/portfolio/400-anos-das-missoes.jpg",
+          "detail": "Em 2026 celebraremos os 400 Anos das Missões Jesuíticas, um legado de cultura, fé e história que transcende séculos. O projeto de comemoração visa celebrar essa herança, promovendo eventos culturais, educativos e turísticos que resgatam e valorizam a história das Missões Jesuíticas, patrimônio da humanidade.\n\nQue tal unir sua marca a um patrimônio histórico e cultural de reconhecimento mundial? Seja um parceiro das comemorações dos 400 Anos das Missões Jesuíticas e conecte-se com um público diversificado em um evento que celebra a história e a cultura brasileira."
+        },
+        {
+          "name": "Filme \"O Segredo de Táθos\"",
+          "location": "Fantástico Laboratório",
+          "description": "Aventura familiar brasileira com o robô Byte, uma plataforma de entretenimento, educação e licenciamento, com incentivo via Lei do Audiovisual e ProAC ICMS.",
+          "value": "R$ 220.000 – R$ 580.000",
+          "valueLabel": "investimento",
+          "period": "2026",
+          "periodLabel": "período",
+          "interestQuery": "Filme+Fantastico+Laboratorio",
+          "hidden": false,
+          "image": "assets/img/portfolio/filme-fantastico-laboratorio.jpg",
+          "detail": "Uma emocionante aventura familiar brasileira que une nostalgia, tecnologia, ciência, emoção e esperança em uma experiência capaz de conectar diferentes gerações. Inspirado nos grandes clássicos da aventura infantojuvenil, o projeto apresenta o carismático robô Byte, personagem com alto potencial de identificação, licenciamento e ativações de marca.\n\nMais do que um filme, é uma plataforma de entretenimento, educação e impacto social, com expansão para experiências interativas, ações culturais, produtos licenciados e iniciativas voltadas à inovação e ao aprendizado de tecnologia para crianças e jovens.\n\nO projeto possui Lei de Incentivo aprovada via Lei do Audiovisual e ProAC ICMS, oferecendo benefícios fiscais, visibilidade de marca, ativações exclusivas e conexão com pautas de ESG, inovação e impacto social."
+        },
+        {
+          "name": "Primavera Musical",
+          "location": "Porto Alegre e Região Metropolitana",
+          "description": "No primeiro dia da primavera, música instrumental em locais públicos e privados celebrando o renascimento e a esperança da estação.",
+          "value": "R$ 30.000 – R$ 200.000",
+          "valueLabel": "investimento",
+          "period": "Set/2026",
+          "periodLabel": "período",
+          "interestQuery": "Primavera+Musical",
+          "hidden": false,
+          "image": "assets/img/portfolio/primavera-musical.jpg",
+          "detail": "No primeiro dia da primavera, o Primavera Musical transforma a cidade em um palco vibrante, reunindo músicos talentosos para levar arte e encanto a todos. Este evento singular celebra o renascimento e a esperança que a estação representa, proporcionando apresentações instrumentais em locais públicos e privados.\n\nAlém da música, os participantes recebem sementes de flores, simbolizando o florescer e a construção de novos ciclos. Junte-se a nós e compartilhe momentos inesquecíveis com a comunidade no Primavera Musical."
+        }
       ]
     },
     {
@@ -59,9 +250,44 @@
       "tintClass": "vtint-gastronomia",
       "intro": "",
       "cards": [
-        { "name": "Sal, Brasa et al", "location": "Itu - SP", "description": "Festival Mundial do Churrasco: três dias de gastronomia, cultura e entretenimento, com competições internacionais e 50 mil visitantes esperados.", "value": "R$ 50.500 – R$ 3.000.000", "valueLabel": "investimento", "period": "2º sem. 2027", "periodLabel": "período", "interestQuery": "Sal+Brasa+et+al", "hidden": false },
-        { "name": "Le Cordon Bleu Dinner Experience", "location": "São Paulo - SP", "description": "Jantar com aula exclusiva conduzida por experts da renomada escola de gastronomia, associando sua marca a prestígio e requinte.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Le+Cordon+Bleu", "hidden": false },
-        { "name": "Experience Chef Fabi Artmann", "location": "Porto Alegre - RS", "description": "Café da manhã, almoços e jantares exclusivos de alto padrão para empresas e grupos selecionados, com chef formada no Institut Paul Bocuse.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Chef+Fabi+Artmann", "hidden": false }
+        {
+          "name": "Sal, Brasa et al",
+          "location": "Itu - SP",
+          "description": "Festival Mundial do Churrasco: três dias de gastronomia, cultura e entretenimento, com competições internacionais e 50 mil visitantes esperados.",
+          "value": "R$ 50.500 – R$ 3.000.000",
+          "valueLabel": "investimento",
+          "period": "2º sem. 2027",
+          "periodLabel": "período",
+          "interestQuery": "Sal+Brasa+et+al",
+          "hidden": false,
+          "detail": "Uma celebração de três dias que reúne o melhor da gastronomia, cultura e entretenimento, com competições internacionais, shows, exposições culturais e ações sustentáveis.\n\nO Festival Mundial do Churrasco é um evento pioneiro que transforma a tradicional arte do churrasco em uma experiência multissensorial completa. Junte-se a nós nesta experiência única, que atrairá 50 mil visitantes de todo o Brasil e do mundo."
+        },
+        {
+          "name": "Le Cordon Bleu Dinner Experience",
+          "location": "São Paulo - SP",
+          "description": "Jantar com aula exclusiva conduzida por experts da renomada escola de gastronomia, associando sua marca a prestígio e requinte.",
+          "value": "Sob consulta",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "Le+Cordon+Bleu",
+          "hidden": false,
+          "image": "assets/img/portfolio/le-cordon-bleu.jpg",
+          "detail": "O Dinner Experience Le Cordon Bleu oferece uma experiência de jantar com aula exclusiva para clientes especiais, conduzida por experts da renomada escola de gastronomia em sua sede em São Paulo. Em um ambiente que evoca uma confraria, os participantes desvendam segredos culinários e vivenciam uma celebração do paladar.\n\nQue tal presentear seus clientes mais importantes com essa experiência única, associando sua marca ao prestígio da Le Cordon Bleu? Seja um parceiro do Dinner Experience e proporcione momentos de puro requinte."
+        },
+        {
+          "name": "Experience Chef Fabi Artmann",
+          "location": "Porto Alegre - RS",
+          "description": "Café da manhã, almoços e jantares exclusivos de alto padrão para empresas e grupos selecionados, com chef formada no Institut Paul Bocuse.",
+          "value": "Sob consulta",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "Chef+Fabi+Artmann",
+          "hidden": false,
+          "image": "assets/img/portfolio/chef-fabi-artmann.jpg",
+          "detail": "Fabi Artmann é chef e curadora de experiências gastronômicas com mais de 17 anos de trajetória, formada pelo Institut Paul Bocuse, em Lyon, com especializações nas escolas Le Nôtre e École Alain Ducasse, em Paris. Sua cozinha une técnica, sensibilidade e hospitalidade, criando momentos que vão além da gastronomia e fortalecem conexões genuínas entre pessoas.\n\nDesenvolvemos café da manhã, almoços e jantares exclusivos de alto padrão para empresas, lideranças e grupos selecionados, transformando encontros corporativos, reuniões estratégicas e eventos privados em experiências memoráveis."
+        }
       ]
     },
     {
@@ -72,14 +298,110 @@
       "tintClass": "vtint-negocios",
       "intro": "",
       "cards": [
-        { "name": "Painel LIDE", "location": "Rio Grande do Sul & Santa Catarina", "description": "Networking de alto nível entre líderes empresariais, com protagonismo em 4 iniciativas do LIDE RS/SC e destaque no Prêmio Líderes Anual.", "value": "A partir de R$ 150.000", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Painel+LIDE", "hidden": false },
-        { "name": "Forbes Under 30", "location": "Porto Alegre - RS", "description": "Evento que reúne jovens talentos e líderes reconhecidos pela Forbes, com palestras, workshops e networking.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Forbes+Under+30", "hidden": false },
-        { "name": "The Better-Cities Event", "location": "Porto Alegre - RS (by Urban Futures)", "description": "Líderes urbanos e especialistas discutindo sustentabilidade, mobilidade e tecnologia para as cidades do futuro.", "value": "Sob consulta", "valueLabel": "investimento", "period": "2º sem. 2027", "periodLabel": "período", "interestQuery": "Better-Cities+Event", "hidden": false },
-        { "name": "Expointer · ExpoMentes", "location": "Esteio - RS", "description": "Plataforma de conteúdo e negócios dentro da maior feira do agronegócio da América Latina, com aprovação via Lei Rouanet.", "value": "R$ 100.000 – R$ 997.000", "valueLabel": "investimento", "period": "30/08–07/09/2026", "periodLabel": "período", "interestQuery": "ExpoMentes", "hidden": false },
-        { "name": "Encontro Nacional do Futebol Feminino", "location": "Arena do Grêmio, Porto Alegre - RS", "description": "Conteúdo, networking e negócios no ciclo da Copa do Mundo Feminina FIFA 2027, com foco em diversidade e protagonismo feminino.", "value": "R$ 10.000 – R$ 50.000", "valueLabel": "investimento", "period": "24–25/09/2026", "periodLabel": "período", "interestQuery": "Futebol+Feminino", "hidden": false },
-        { "name": "Transcend Wellness", "location": "Gramado - RS", "description": "Hub de inovação, saúde, longevidade e wellness, com conteúdo, networking e negócios no coração da Serra Gaúcha.", "value": "Sob consulta", "valueLabel": "investimento", "period": "21–23/04/2027", "periodLabel": "período", "interestQuery": "Transcend+Wellness", "hidden": false },
-        { "name": "3ª Edição Summit Empreender 40+", "location": "Porto Alegre - RS", "description": "Maior ecossistema do Brasil focado em transformar experiência em vantagem competitiva; última edição impactou mais de 250 mil pessoas.", "value": "R$ 50.000 – R$ 450.000", "valueLabel": "investimento", "period": "2027", "periodLabel": "período", "interestQuery": "Summit+Empreender+40", "hidden": false },
-        { "name": "Health Business Meeting", "location": "Porto Alegre - RS", "description": "Dois dias de imersão para médicos, dentistas e gestores de clínicas em aprendizado, networking e estratégias de gestão.", "value": "R$ 15.000 – R$ 50.000", "valueLabel": "investimento", "period": "2027", "periodLabel": "período", "interestQuery": "Health+Business+Meeting", "hidden": false }
+        {
+          "name": "Painel LIDE",
+          "location": "Rio Grande do Sul & Santa Catarina",
+          "description": "Networking de alto nível entre líderes empresariais, com protagonismo em 4 iniciativas do LIDE RS/SC e destaque no Prêmio Líderes Anual.",
+          "value": "A partir de R$ 150.000",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "Painel+LIDE",
+          "hidden": false,
+          "image": "assets/img/portfolio/painel-lide.jpg",
+          "detail": "O Painel LIDE reúne líderes empresariais para debater temas relevantes, proporcionando networking de alto nível. Ao se tornar parceiro, sua empresa garante acesso a todos os fóruns por um ano, com indicação de convidados estratégicos.\n\nSua marca ainda ganha protagonismo em 4 iniciativas do LIDE RS ou SC, com conteúdo em 3 fóruns e destaque na cerimônia do Prêmio Líderes Anual. Seja um parceiro do Painel LIDE e posicione sua empresa como protagonista."
+        },
+        {
+          "name": "Forbes Under 30",
+          "location": "Porto Alegre - RS",
+          "description": "Evento que reúne jovens talentos e líderes reconhecidos pela Forbes, com palestras, workshops e networking.",
+          "value": "Sob consulta",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "Forbes+Under+30",
+          "hidden": false,
+          "image": "assets/img/portfolio/forbes-under-30.jpg",
+          "detail": "O Forbes Under 30 é um evento que reúne jovens talentos e líderes de diversas áreas, reconhecidos pela revista Forbes como destaques com menos de 30 anos. O evento oferece palestras, workshops, networking e outras atividades, proporcionando aos participantes a oportunidade de trocar ideias, aprender com experts e construir conexões valiosas.\n\nQue tal associar sua marca ao talento e ao futuro? Seja um parceiro do Forbes Under 30 e posicione sua marca na vanguarda, em um evento que inspira a próxima geração de líderes."
+        },
+        {
+          "name": "The Better-Cities Event",
+          "location": "Porto Alegre - RS (by Urban Futures)",
+          "description": "Líderes urbanos e especialistas discutindo sustentabilidade, mobilidade e tecnologia para as cidades do futuro.",
+          "value": "Sob consulta",
+          "valueLabel": "investimento",
+          "period": "2º sem. 2027",
+          "periodLabel": "período",
+          "interestQuery": "Better-Cities+Event",
+          "hidden": false,
+          "image": "assets/img/portfolio/better-cities-event.jpg",
+          "detail": "O Better Cities, promovido pela Urban Futures, reúne líderes urbanos e especialistas para discutir soluções para as cidades do futuro. Através de palestras e workshops, o evento foca em sustentabilidade, mobilidade, tecnologia, inclusão e qualidade de vida.\n\nQue tal posicionar sua marca como protagonista na construção das cidades do futuro? Seja um parceiro do Better Cities e conecte-se com um público influente em um evento que debate as tendências e soluções para um futuro urbano mais inteligente e sustentável."
+        },
+        {
+          "name": "Expointer · ExpoMentes",
+          "location": "Esteio - RS",
+          "description": "Plataforma de conteúdo e negócios dentro da maior feira do agronegócio da América Latina, com aprovação via Lei Rouanet.",
+          "value": "R$ 100.000 – R$ 997.000",
+          "valueLabel": "investimento",
+          "period": "30/08–07/09/2026",
+          "periodLabel": "período",
+          "interestQuery": "ExpoMentes",
+          "hidden": false,
+          "image": "assets/img/portfolio/expomentes.jpg",
+          "detail": "O ExpoMentes será uma plataforma de conteúdo, negócios e conexões estratégicas dentro da Expointer 2026, a maior feira do agronegócio da América Latina. O projeto reunirá empresários, investidores, líderes e tomadores de decisão em um ambiente premium voltado a relacionamento, posicionamento de marca e geração de negócios.\n\nO projeto é realizado pelo mesmo grupo da Conferência Mentes Brilhantes, que já reuniu milhares de empresários e grandes nomes como Ricardo Amorim, Jorge Gerdau, Clovis Tramontina e Daniel Randon. Possui aprovação via Lei Rouanet, permitindo investimento através de incentivo fiscal."
+        },
+        {
+          "name": "Encontro Nacional do Futebol Feminino",
+          "location": "Arena do Grêmio, Porto Alegre - RS",
+          "description": "Conteúdo, networking e negócios no ciclo da Copa do Mundo Feminina FIFA 2027, com foco em diversidade e protagonismo feminino.",
+          "value": "R$ 10.000 – R$ 50.000",
+          "valueLabel": "investimento",
+          "period": "24–25/09/2026",
+          "periodLabel": "período",
+          "interestQuery": "Futebol+Feminino",
+          "hidden": false,
+          "image": "assets/img/portfolio/futebol-feminino.jpg",
+          "detail": "O Encontro Nacional do Futebol Feminino será uma plataforma de conteúdo, networking e negócios, conectando marcas, lideranças, clubes e profissionais no ciclo da Copa do Mundo Feminina FIFA 2027. Nasce com o propósito de fortalecer o mercado, desenvolver lideranças e impulsionar o crescimento do futebol feminino no Brasil.\n\nRealizado na Arena do Grêmio, reunirá executivas e executivos, atletas, dirigentes, imprensa e tomadores de decisão em uma experiência voltada a relacionamento, posicionamento de marca e geração de oportunidades."
+        },
+        {
+          "name": "Transcend Wellness",
+          "location": "Gramado - RS",
+          "description": "Hub de inovação, saúde, longevidade e wellness, com conteúdo, networking e negócios no coração da Serra Gaúcha.",
+          "value": "Sob consulta",
+          "valueLabel": "investimento",
+          "period": "21–23/04/2027",
+          "periodLabel": "período",
+          "interestQuery": "Transcend+Wellness",
+          "hidden": false,
+          "image": "assets/img/portfolio/transcend-wellness.jpg",
+          "detail": "Prepare-se para conectar sua marca ao futuro da economia do bem-estar. O Transcend Wellness reúne líderes, especialistas, empresários e profissionais da saúde em uma experiência exclusiva de conteúdo, networking e geração de negócios no coração da Serra Gaúcha.\n\nMais do que um evento, é um hub de inovação, saúde, longevidade e wellness, criado para impulsionar conexões estratégicas, fortalecer marcas e posicionar empresas como protagonistas de um dos mercados que mais crescem no mundo.\n\nSeja parceiro de um projeto com alto potencial de visibilidade, autoridade e impacto regional, associando sua marca a um público qualificado e às principais tendências de saúde, performance e qualidade de vida."
+        },
+        {
+          "name": "3ª Edição Summit Empreender 40+",
+          "location": "Porto Alegre - RS",
+          "description": "Maior ecossistema do Brasil focado em transformar experiência em vantagem competitiva; última edição impactou mais de 250 mil pessoas.",
+          "value": "R$ 50.000 – R$ 450.000",
+          "valueLabel": "investimento",
+          "period": "2027",
+          "periodLabel": "período",
+          "interestQuery": "Summit+Empreender+40",
+          "hidden": false,
+          "image": "assets/img/portfolio/summit-empreender-40.jpg",
+          "detail": "Em um mercado em constante transformação, a experiência é o maior ativo de um profissional. Para potencializar essa força, o Empreender 40+ atua como o maior ecossistema do Brasil focado em transformar bagagem em vantagem competitiva, oferecendo capacitação, eventos e networking de alto nível.\n\nA grande vitrine desse movimento é o Summit Empreender 40+, um evento transformador que na última edição impactou mais de 250 mil pessoas. Apoiar esta iniciativa é conectar sua marca a um público altamente qualificado e com grande poder de decisão."
+        },
+        {
+          "name": "Health Business Meeting",
+          "location": "Porto Alegre - RS",
+          "description": "Dois dias de imersão para médicos, dentistas e gestores de clínicas em aprendizado, networking e estratégias de gestão.",
+          "value": "R$ 15.000 – R$ 50.000",
+          "valueLabel": "investimento",
+          "period": "2027",
+          "periodLabel": "período",
+          "interestQuery": "Health+Business+Meeting",
+          "hidden": false,
+          "image": "assets/img/portfolio/health-business-meeting.jpg",
+          "detail": "Prepare-se para transformar seu negócio. O Health Business Meeting reúne líderes e inovadores do setor para dois dias de imersão em aprendizado, networking e estratégias de ponta, um evento exclusivo para médicos, dentistas e gestores de clínicas que buscam excelência operacional e crescimento sustentável.\n\nQue tal impulsionar o seu negócio na área da saúde e se conectar com os principais nomes do mercado? Seja um parceiro do Health Business Meeting e posicione sua marca como referência em inovação, gestão e marketing no setor."
+        }
       ]
     },
     {
@@ -90,8 +412,32 @@
       "tintClass": "vtint-tecnologia",
       "intro": "",
       "cards": [
-        { "name": "Olimpíada Brasileira de Meio Ambiente e Sustentabilidade", "location": "Nacional", "description": "Competição científica gratuita e inclusiva para estudantes do ensino fundamental e médio, com formato híbrido e escalável.", "value": "R$ 150.000 – R$ 2.000.000", "valueLabel": "investimento", "period": "Anual", "periodLabel": "período", "interestQuery": "Olimpiada+Sustentabilidade", "hidden": false },
-        { "name": "Smart City of Rock", "location": "Lisboa - Portugal", "description": "Parceria com a Rock World para levar tecnologia e conectividade à \"Cidade do Rock\" do Rock in Rio.", "value": "€ 80.000 – R$ 800.000", "valueLabel": "investimento", "period": "2026–2027", "periodLabel": "período", "interestQuery": "Smart+City+of+Rock", "hidden": false }
+        {
+          "name": "Olimpíada Brasileira de Meio Ambiente e Sustentabilidade",
+          "location": "Nacional",
+          "description": "Competição científica gratuita e inclusiva para estudantes do ensino fundamental e médio, com formato híbrido e escalável.",
+          "value": "R$ 150.000 – R$ 2.000.000",
+          "valueLabel": "investimento",
+          "period": "Anual",
+          "periodLabel": "período",
+          "interestQuery": "Olimpiada+Sustentabilidade",
+          "hidden": false,
+          "image": "assets/img/portfolio/olimpiada-sustentabilidade.jpg",
+          "detail": "A Olimpíada Brasileira de Meio Ambiente e Sustentabilidade é uma competição científica nacional, gratuita e inclusiva para estudantes do ensino fundamental e médio de todo o País. Com formato híbrido e escalável, explora temas ambientais urgentes através de provas online e presenciais, incentivando a formação de cidadãos conscientes e o desenvolvimento de talentos.\n\nQue tal associar sua marca a um futuro mais verde e inspirar a próxima geração de líderes ambientais? Seja um parceiro e conecte-se com um público jovem e engajado."
+        },
+        {
+          "name": "Smart City of Rock",
+          "location": "Lisboa - Portugal",
+          "description": "Parceria com a Rock World para levar tecnologia e conectividade à \"Cidade do Rock\" do Rock in Rio.",
+          "value": "€ 80.000 – R$ 800.000",
+          "valueLabel": "investimento",
+          "period": "2026–2027",
+          "periodLabel": "período",
+          "interestQuery": "Smart+City+of+Rock",
+          "hidden": false,
+          "image": "assets/img/portfolio/smart-city-of-rock.jpg",
+          "detail": "O Projeto Smart City of Rock busca levar mais tecnologia à Cidade do Rock, transformando o espaço onde ocorre um dos maiores festivais de música do planeta em uma verdadeira cidade inteligente.\n\nEm parceria com a Rock World, buscamos conectar inovação e tecnologia com o mundo da música e do entretenimento. Traga sua marca e nos ajude a trazer mais conectividade e inteligência para essa experiência memorável que é o Rock in Rio."
+        }
       ]
     },
     {
@@ -102,10 +448,58 @@
       "tintClass": "vtint-comunicacao",
       "intro": "",
       "cards": [
-        { "name": "Fernando Carvalho · Base-FC", "location": "Futebol, liderança e gestão", "description": "Ex-presidente de um dos ciclos mais vitoriosos do Internacional (Libertadores e Mundial 2006), hoje palestrante e criador de conteúdo.", "value": "R$ 20.000 – R$ 60.000", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Fernando+Carvalho", "hidden": false },
-        { "name": "Luciano Potter", "location": "Potter Entrevista · Aquela História · Histórias do Potter", "description": "25+ anos de Grupo RBS, referência de comunicação no Sul do Brasil, com produtos que aproximam marcas de nomes relevantes.", "value": "R$ 22.500 – R$ 30.000", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Luciano+Potter", "hidden": false },
-        { "name": "Brunna Colossi", "location": "@bru_colossi", "description": "Influenciadora e jornalista, com passagens pelo Grupo RBS e SBT, além de conexão autêntica e engajada com sua audiência.", "value": "R$ 8.500 – R$ 30.000", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Brunna+Colossi", "hidden": false },
-        { "name": "Fábio Almeida", "location": "Caso a Caso Podcast · @fabionoar", "description": "Jornalista investigativo com 20+ anos de experiência (RBS, Fantástico/Globo), hoje à frente do Caso a Caso Podcast.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Fabio+Almeida", "hidden": false }
+        {
+          "name": "Fernando Carvalho · Base-FC",
+          "location": "Futebol, liderança e gestão",
+          "description": "Ex-presidente de um dos ciclos mais vitoriosos do Internacional (Libertadores e Mundial 2006), hoje palestrante e criador de conteúdo.",
+          "value": "R$ 20.000 – R$ 60.000",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "Fernando+Carvalho",
+          "hidden": false,
+          "image": "assets/img/portfolio/fernando-carvalho.jpg",
+          "detail": "Fernando Carvalho conecta futebol, liderança, gestão e mentalidade vencedora em conteúdos, palestras e experiências exclusivas para marcas e negócios.\n\nEx-presidente de um dos ciclos mais vitoriosos da história do Sport Club Internacional, liderou as conquistas da Libertadores e do Mundial FIFA 2006.\n\nHoje atua como palestrante e é uma das principais referências do futebol brasileiro em SAF, gestão esportiva e liderança, além de criador de conteúdo, reunindo grandes nomes do esporte e do mercado em uma plataforma baseada em autoridade, credibilidade e legado vencedor."
+        },
+        {
+          "name": "Luciano Potter",
+          "location": "Potter Entrevista · Aquela História · Histórias do Potter",
+          "description": "25+ anos de Grupo RBS, referência de comunicação no Sul do Brasil, com produtos que aproximam marcas de nomes relevantes.",
+          "value": "R$ 22.500 – R$ 30.000",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "Luciano+Potter",
+          "hidden": false,
+          "image": "assets/img/portfolio/luciano-potter.jpg",
+          "detail": "Com mais de 25 anos de experiência no Grupo RBS (afiliada TV Globo), Potter transforma qualquer narrativa, seja sobre inovação, esporte ou pautas emergentes, em uma experiência forte e cativante.\n\nReferência de comunicação no Sul do Brasil, combina humor, personalidade e uma abordagem autêntica nas redes sociais.\n\nCom produtos como Potter Entrevista, que aproxima marcas e nomes relevantes, Aquela História, que conecta emoções e memórias, e Histórias do Potter, que revela bastidores e histórias inspiradoras, proporciona um universo de oportunidades para fortalecer marcas junto a um público fiel e engajado."
+        },
+        {
+          "name": "Brunna Colossi",
+          "location": "@bru_colossi",
+          "description": "Influenciadora e jornalista, com passagens pelo Grupo RBS e SBT, além de conexão autêntica e engajada com sua audiência.",
+          "value": "R$ 8.500 – R$ 30.000",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "Brunna+Colossi",
+          "hidden": false,
+          "image": "assets/img/portfolio/brunna-colossi.jpg",
+          "detail": "Brunna é uma influenciadora autêntica e apaixonada pela vida simples. Jornalista, com passagens pelo Grupo RBS e SBT, nasceu em Alecrim, no Rio Grande do Sul. Em seus conteúdos, busca sempre trazer um olhar curioso por descobrir novos sabores e lugares.\n\nNas redes sociais, compartilha dicas, experiências e histórias envolventes com uma abordagem leve e divertida, e se destaca pela sinceridade e conexão com os seguidores. Também é mestre de cerimônias e palestrante."
+        },
+        {
+          "name": "Fábio Almeida",
+          "location": "Caso a Caso Podcast · @fabionoar",
+          "description": "Jornalista investigativo com 20+ anos de experiência (RBS, Fantástico/Globo), hoje à frente do Caso a Caso Podcast.",
+          "value": "Sob consulta",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "Fabio+Almeida",
+          "hidden": false,
+          "image": "assets/img/portfolio/fabio-almeida.jpg",
+          "detail": "Fábio Almeida é jornalista com mais de 20 anos de experiência em rádio, televisão e jornalismo investigativo, pós-graduado em Produção de TV e Reportagens de Aprofundamento.\n\nAtuou por 18 anos no Grupo RBS (afiliada Globo no RS), sendo um dos fundadores do GDI, Grupo de Investigação, produzindo conteúdos para RBS TV, Rádio Gaúcha, GZH, Portal G1, Zero Hora e Diário Gaúcho. Também integrou a equipe de reportagens especiais do Fantástico, da TV Globo.\n\nAtualmente lidera o Caso a Caso Podcast, projeto com foco em segurança pública, investigação e justiça, com proposta de se tornar referência regional no segmento."
+        }
       ]
     },
     {
@@ -116,10 +510,50 @@
       "tintClass": "vtint-social",
       "intro": "Iniciativas institucionais e sociais com as quais sua marca pode se associar para gerar impacto real na comunidade gaúcha. Nestes projetos a equipe da MeetandGreat.Co atua pró bono.",
       "cards": [
-        { "name": "RSNASCE", "location": "", "description": "Iniciativa social ligada ao ecossistema de inovação do RS.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "RSNASCE", "hidden": false },
-        { "name": "Pacto Alegre", "location": "", "description": "Mobilização institucional em torno do desenvolvimento de Porto Alegre.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Pacto+Alegre", "hidden": false },
-        { "name": "Instituto Retomada", "location": "", "description": "Projeto social com foco em reconstrução e resiliência da comunidade.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "Instituto+Retomada", "hidden": false },
-        { "name": "CPOR Porto Alegre", "location": "", "description": "Iniciativa institucional ligada à formação e cidadania.", "value": "Sob consulta", "valueLabel": "investimento", "period": "Sob consulta", "periodLabel": "período", "interestQuery": "CPOR+Porto+Alegre", "hidden": false }
+        {
+          "name": "RSNASCE",
+          "location": "",
+          "description": "Iniciativa social ligada ao ecossistema de inovação do RS.",
+          "value": "Sob consulta",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "RSNASCE",
+          "hidden": false
+        },
+        {
+          "name": "Pacto Alegre",
+          "location": "",
+          "description": "Mobilização institucional em torno do desenvolvimento de Porto Alegre.",
+          "value": "Sob consulta",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "Pacto+Alegre",
+          "hidden": false
+        },
+        {
+          "name": "Instituto Retomada",
+          "location": "",
+          "description": "Projeto social com foco em reconstrução e resiliência da comunidade.",
+          "value": "Sob consulta",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "Instituto+Retomada",
+          "hidden": false
+        },
+        {
+          "name": "CPOR Porto Alegre",
+          "location": "",
+          "description": "Iniciativa institucional ligada à formação e cidadania.",
+          "value": "Sob consulta",
+          "valueLabel": "investimento",
+          "period": "Sob consulta",
+          "periodLabel": "período",
+          "interestQuery": "CPOR+Porto+Alegre",
+          "hidden": false
+        }
       ]
     }
   ]
