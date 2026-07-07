@@ -126,6 +126,8 @@ collections:
                   - { label: "Período/Data", name: "period", widget: "string" }
                   - { label: "Legenda do período (ex.: data)", name: "periodLabel", widget: "string" }
                   - { label: "Parâmetro do botão de interesse (não alterar)", name: "interestQuery", widget: "string" }
+                  - { label: "Imagem (aba de detalhes)", name: "image", widget: "image", required: false }
+                  - { label: "Descrição completa (aba de detalhes)", name: "detail", widget: "text", required: false }
                   - { label: "Ocultar este card", name: "hidden", widget: "boolean", default: false }
 
   - name: "sobre"
