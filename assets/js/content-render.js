@@ -53,7 +53,6 @@
       "<div><b>" + esc(card.period) + "</b><span>" + esc(card.periodLabel) + "</span></div></div>" +
       (hasDetail ? oppDetailHTML(card) : "") +
       '<div class="opp-actions">' +
-      (hasDetail ? '<button type="button" class="opp-toggle" aria-expanded="false"><span class="opp-toggle-label">Ver detalhes</span></button>' : "") +
       '<a class="interest" href="contato.html?interesse=' + esc(card.interestQuery) + '">Tenho interesse →</a>' +
       "</div>" +
       "</div>"

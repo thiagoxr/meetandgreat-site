@@ -53,22 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Opportunity card "Ver detalhes" toggle — delegated because cards are
-  // injected dynamically by content-render.js after this listener is set up.
-  var vBlocks = document.getElementById("vertical-blocks");
-  if (vBlocks) {
-    vBlocks.addEventListener("click", function (e) {
-      var btn = e.target.closest(".opp-toggle");
-      if (!btn) return;
-      var card = btn.closest(".opp-card");
-      if (!card) return;
-      var isOpen = card.classList.toggle("is-open");
-      btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
-      var label = btn.querySelector(".opp-toggle-label");
-      if (label) label.textContent = isOpen ? "Ver menos" : "Ver detalhes";
-    });
-  }
-
   // Highlight current page in nav
   var path = window.location.pathname.split("/").pop() || "index.html";
   document.querySelectorAll("nav.main-nav a[href]").forEach(function (a) {
