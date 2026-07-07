@@ -29,7 +29,21 @@
     return (list || []).filter(function (item) { return !item.hidden; });
   }
 
+  function oppDetailHTML(card) {
+    if (!card.detail) return "";
+    var paragraphs = String(card.detail).split(/\n\s*\n/).map(function (p) {
+      return "<p>" + esc(p).replace(/\n/g, "<br>") + "</p>";
+    }).join("");
+    return (
+      '<div class="opp-detail">' +
+      (card.image ? '<img src="' + esc(card.image) + '" alt="' + esc(card.name) + '" loading="lazy">' : "") +
+      paragraphs +
+      "</div>"
+    );
+  }
+
   function oppCardHTML(card) {
+    var hasDetail = !!card.detail;
     return (
       '<div class="opp-card">' +
       "<h4>" + esc(card.name) + "</h4>" +
@@ -37,7 +51,11 @@
       "<p>" + esc(card.description) + "</p>" +
       '<div class="opp-meta"><div><b>' + esc(card.value) + "</b><span>" + esc(card.valueLabel) + "</span></div>" +
       "<div><b>" + esc(card.period) + "</b><span>" + esc(card.periodLabel) + "</span></div></div>" +
+      (hasDetail ? oppDetailHTML(card) : "") +
+      '<div class="opp-actions">' +
+      (hasDetail ? '<button type="button" class="opp-toggle" aria-expanded="false"><span class="opp-toggle-label">Ver detalhes</span></button>' : "") +
       '<a class="interest" href="contato.html?interesse=' + esc(card.interestQuery) + '">Tenho interesse →</a>' +
+      "</div>" +
       "</div>"
     );
   }
