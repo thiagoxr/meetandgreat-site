@@ -36,7 +36,7 @@
     }).join("");
     return (
       '<div class="opp-detail">' +
-      (card.image ? '<img src="' + esc(card.image) + '" alt="' + esc(card.name) + '" loading="lazy">' : "") +
+      (card.image ? '<img src="' + esc(card.image) + '" alt="' + esc(card.name) + '" loading="lazy">' : '<div class="opp-detail-placeholder" aria-hidden="true"></div>') +
       paragraphs +
       "</div>"
     );
