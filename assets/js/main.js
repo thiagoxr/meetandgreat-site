@@ -12,6 +12,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Shared helper: collect "Label: value" lines from a form's filled fields.
+  function collectFormLines(form) {
+    var lines = [];
+    form.querySelectorAll("input, select, textarea").forEach(function (el) {
+      if (!el.name) return;
+      var label = el.closest(".field") ? el.closest(".field").querySelector("label") : null;
+      var name = label ? label.textContent.trim() : el.name;
+      var value = el.value.trim();
+      if (value) lines.push(name + ": " + value);
+    });
+    return lines;
+  }
+
   // Generic mailto-based form handler.
   // Works with zero backend: builds a mailto: link from the form fields
   // and opens the visitor's email client. Swap this for a real form
@@ -21,17 +34,28 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       var to = form.getAttribute("data-mailto");
       var subject = form.getAttribute("data-subject") || "Contato via site";
-      var lines = [];
-      form.querySelectorAll("input, select, textarea").forEach(function (el) {
-        if (!el.name) return;
-        var label = el.closest(".field") ? el.closest(".field").querySelector("label") : null;
-        var name = label ? label.textContent.trim() : el.name;
-        var value = el.value.trim();
-        if (value) lines.push(name + ": " + value);
-      });
+      var lines = collectFormLines(form);
       var body = encodeURIComponent(lines.join("\n"));
       var mailtoUrl = "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=" + body;
       window.location.href = mailtoUrl;
+
+      var note = form.querySelector(".form-sent-note");
+      if (note) note.style.display = "block";
+    });
+  });
+
+  // WhatsApp send button: builds a pre-filled wa.me message from the same
+  // form fields as the mailto handler, so visitors can choose either channel.
+  document.querySelectorAll("form[data-whatsapp] .btn-whatsapp").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var form = btn.closest("form");
+      if (!form) return;
+      var number = form.getAttribute("data-whatsapp").replace(/\D/g, "");
+      var intro = form.getAttribute("data-whatsapp-intro") || "Olá! Vim pelo site da MeetandGreat.Co.";
+      var lines = collectFormLines(form);
+      var text = intro + (lines.length ? "\n\n" + lines.join("\n") : "");
+      var waUrl = "https://wa.me/" + number + "?text=" + encodeURIComponent(text);
+      window.open(waUrl, "_blank", "noopener");
 
       var note = form.querySelector(".form-sent-note");
       if (note) note.style.display = "block";

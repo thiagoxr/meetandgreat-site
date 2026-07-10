@@ -29,6 +29,13 @@
     return (list || []).filter(function (item) { return !item.hidden; });
   }
 
+  function waLink(number, personName) {
+    if (!number) return "";
+    var digits = String(number).replace(/\D/g, "");
+    var msg = "Olá" + (personName ? " " + personName : "") + "! Vim pelo site da MeetandGreat.Co.";
+    return "https://wa.me/" + digits + "?text=" + encodeURIComponent(msg);
+  }
+
   function oppDetailHTML(card) {
     if (!card.detail) return "";
     var paragraphs = String(card.detail).split(/\n\s*\n/).map(function (p) {
@@ -209,7 +216,9 @@
               return (
                 '<div class="team-card"><img src="' + esc(m.photo) + '" alt="' + esc(m.name) + '">' +
                 "<div><span class=\"role\">" + esc(m.role) + "</span><h3>" + esc(m.name) + "</h3>" +
-                "<p>" + esc(m.description) + '</p><a class="linkedin" href="mailto:' + esc(m.email) + '">' + esc(m.email) + "</a></div></div>"
+                "<p>" + esc(m.description) + '</p><a class="linkedin" href="mailto:' + esc(m.email) + '">' + esc(m.email) + "</a>" +
+                (m.whatsapp ? '<a class="linkedin whatsapp-link" href="' + esc(waLink(m.whatsapp, m.name)) + '" target="_blank" rel="noopener">WhatsApp</a>' : "") +
+                "</div></div>"
               );
             }).join("");
           }
@@ -263,7 +272,9 @@
           wrap.innerHTML = visible(data.people).map(function (p) {
             return (
               '<div class="person"><h4>' + esc(p.name) + '</h4><span style="font-size:.82rem;color:var(--ink-soft);">' +
-              esc(p.role) + '</span><a href="mailto:' + esc(p.email) + '">' + esc(p.email) + "</a></div>"
+              esc(p.role) + '</span><a href="mailto:' + esc(p.email) + '">' + esc(p.email) + "</a>" +
+              (p.whatsapp ? '<a class="whatsapp-link" href="' + esc(waLink(p.whatsapp, p.name)) + '" target="_blank" rel="noopener">WhatsApp</a>' : "") +
+              "</div>"
             );
           }).join("");
         }
