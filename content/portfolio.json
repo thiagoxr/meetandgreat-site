@@ -522,6 +522,7 @@
           "periodLabel": "período",
           "interestQuery": "RSNASCE",
           "hidden": false,
+          "image": "assets/img/portfolio/rsnasce.jpg",
           "detail": "Iniciativa social ligada ao ecossistema de inovação do Rio Grande do Sul, conectando empreendedores, instituições e comunidade em projetos que fortalecem o desenvolvimento local.\n\nApoie o RSNASCE e faça parte de um movimento pelo futuro do Estado."
         },
         {
@@ -534,6 +535,7 @@
           "periodLabel": "período",
           "interestQuery": "Pacto+Alegre",
           "hidden": false,
+          "image": "assets/img/portfolio/pacto-alegre.jpg",
           "detail": "Mobilização institucional que reúne lideranças públicas e privadas em torno do desenvolvimento de Porto Alegre, com ações voltadas à reconstrução e ao fortalecimento da cidade.\n\nApoie o Pacto Alegre e contribua para o futuro da Capital."
         },
         {
@@ -546,6 +548,7 @@
           "periodLabel": "período",
           "interestQuery": "Instituto+Retomada",
           "hidden": false,
+          "image": "assets/img/portfolio/instituto-retomada.jpg",
           "detail": "Projeto social com foco em reconstrução e resiliência da comunidade gaúcha, apoiando famílias e territórios atingidos a retomar sua rotina com dignidade.\n\nApoie o Instituto Retomada e ajude a reconstruir vidas."
         },
         {
@@ -558,6 +561,7 @@
           "periodLabel": "período",
           "interestQuery": "CPOR+Porto+Alegre",
           "hidden": false,
+          "image": "assets/img/portfolio/cpor-porto-alegre.jpg",
           "detail": "Iniciativa institucional ligada à formação e à cidadania, unindo disciplina, propósito e desenvolvimento de jovens lideranças no Rio Grande do Sul.\n\nApoie o CPOR Porto Alegre e invista na formação de novas gerações."
         }
       ]
