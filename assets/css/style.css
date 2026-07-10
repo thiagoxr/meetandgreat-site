@@ -728,7 +728,49 @@ form.card-form {
 }
 .contact-direct .person h4 { margin: 0 0 4px; }
 .contact-direct .person a { display: block; font-size: .92rem; color: var(--brand-blue); font-weight: 600; margin-top: 4px; }
+.contact-direct .person a.whatsapp-link,
+.team-card a.whatsapp-link {
+  color: #25a95a;
+}
 .person-tinted .person { background: rgba(63,87,169,.14); border-color: rgba(63,87,169,.3); }
+
+/* ---------- WhatsApp ---------- */
+.btn-whatsapp {
+  background: #25D366;
+  color: #fff;
+}
+.btn-whatsapp:hover { transform: translateY(-2px); box-shadow: 0 14px 30px -12px rgba(37,211,102,.55); }
+.btn-whatsapp svg { width: 18px; height: 18px; flex-shrink: 0; }
+.form-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.form-actions .btn { flex: 1; }
+
+.whatsapp-float {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 90;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 26px -8px rgba(0,0,0,.4);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.whatsapp-float:hover { transform: translateY(-3px) scale(1.05); box-shadow: 0 14px 30px -8px rgba(0,0,0,.45); }
+.whatsapp-float svg { width: 30px; height: 30px; }
+@media (max-width: 680px) {
+  .whatsapp-float { right: 16px; bottom: 16px; width: 52px; height: 52px; }
+  .whatsapp-float svg { width: 27px; height: 27px; }
+  .form-actions { flex-direction: column; }
+}
 
 /* ---------- Footer ---------- */
 footer {
