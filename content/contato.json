@@ -4,7 +4,7 @@
     "description": "Conte um pouco sobre sua marca e o que você busca. Vamos indicar a melhor oportunidade do nosso portfólio ou desenhar algo sob medida."
   },
   "people": [
-    { "name": "Thiago Ribeiro", "role": "Founder", "email": "thiago@meetandgreat.co", "hidden": false },
-    { "name": "Alexandre Akira", "role": "Cofounder", "email": "akira@meetandgreat.co", "hidden": false }
+    { "name": "Thiago Ribeiro", "role": "Founder", "email": "thiago@meetandgreat.co", "whatsapp": "5551982022962", "hidden": false },
+    { "name": "Alexandre Akira", "role": "Cofounder", "email": "akira@meetandgreat.co", "whatsapp": "5511988718556", "hidden": false }
   ]
 }
