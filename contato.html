@@ -9,6 +9,10 @@
 </head>
 <body data-dynamic data-page="contato">
 
+<a class="whatsapp-float" href="https://wa.me/5551982022962?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20MeetandGreat.Co." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.75 13.4L3 20.5l3.19-1.24a8.93 8.93 0 0 0 5.86 2.16h.01A8.94 8.94 0 0 0 21 12.5a8.87 8.87 0 0 0-3.4-6.18ZM12.06 19.9h-.01a7.4 7.4 0 0 1-3.78-1.04l-.27-.16-2.24.87.75-2.19-.18-.28a7.44 7.44 0 0 1 11.6-9.24 7.36 7.36 0 0 1 2.17 5.24 7.44 7.44 0 0 1-8.04 6.8Zm4.07-5.56c-.22-.11-1.32-.65-1.53-.73-.2-.08-.35-.11-.5.11-.15.22-.57.73-.7.88-.13.15-.26.16-.48.05-.22-.11-.94-.35-1.79-1.1-.66-.59-1.11-1.31-1.24-1.53-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.39.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.39-.06-.11-.5-1.21-.69-1.66-.18-.43-.36-.37-.5-.38-.13-.01-.28-.01-.43-.01-.15 0-.39.06-.6.28-.2.22-.79.77-.79 1.87s.81 2.17.92 2.32c.11.15 1.6 2.44 3.87 3.42.54.23.96.37 1.29.48.54.17 1.03.15 1.42.09.43-.06 1.32-.54 1.51-1.06.19-.52.19-.97.13-1.06-.06-.1-.2-.15-.42-.26Z"/></svg>
+</a>
+
 <header class="site-header">
   <div class="wrap">
     <div class="brand">
@@ -36,7 +40,7 @@
 
 <section>
   <div class="wrap grid-2" style="align-items:start;">
-    <form class="card-form" data-mailto="thiago@meetandgreat.co" data-subject="Novo contato via site - MeetandGreat.Co">
+    <form class="card-form" data-mailto="thiago@meetandgreat.co" data-subject="Novo contato via site - MeetandGreat.Co" data-whatsapp="5511988718556" data-whatsapp-intro="Olá! Vim pelo site da MeetandGreat.Co e gostaria de falar sobre patrocínio.">
       <div class="form-row">
         <div class="field">
           <label for="nome">Nome</label>
@@ -65,9 +69,15 @@
         <label for="mensagem">Mensagem</label>
         <textarea id="mensagem" name="mensagem" placeholder="Conte um pouco sobre os objetivos da sua marca e o orçamento disponível."></textarea>
       </div>
-      <button type="submit" class="btn btn-primary btn-block">Enviar mensagem</button>
-      <p class="form-note form-sent-note" style="display:none;">Abrindo seu aplicativo de e-mail para concluir o envio…</p>
-      <p class="form-note">Ao enviar, abriremos seu aplicativo de e-mail padrão com a mensagem pronta para o nosso time.</p>
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Enviar por e-mail</button>
+        <button type="button" class="btn btn-whatsapp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.75 13.4L3 20.5l3.19-1.24a8.93 8.93 0 0 0 5.86 2.16h.01A8.94 8.94 0 0 0 21 12.5a8.87 8.87 0 0 0-3.4-6.18ZM12.06 19.9h-.01a7.4 7.4 0 0 1-3.78-1.04l-.27-.16-2.24.87.75-2.19-.18-.28a7.44 7.44 0 0 1 11.6-9.24 7.36 7.36 0 0 1 2.17 5.24 7.44 7.44 0 0 1-8.04 6.8Zm4.07-5.56c-.22-.11-1.32-.65-1.53-.73-.2-.08-.35-.11-.5.11-.15.22-.57.73-.7.88-.13.15-.26.16-.48.05-.22-.11-.94-.35-1.79-1.1-.66-.59-1.11-1.31-1.24-1.53-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.39.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.39-.06-.11-.5-1.21-.69-1.66-.18-.43-.36-.37-.5-.38-.13-.01-.28-.01-.43-.01-.15 0-.39.06-.6.28-.2.22-.79.77-.79 1.87s.81 2.17.92 2.32c.11.15 1.6 2.44 3.87 3.42.54.23.96.37 1.29.48.54.17 1.03.15 1.42.09.43-.06 1.32-.54 1.51-1.06.19-.52.19-.97.13-1.06-.06-.1-.2-.15-.42-.26Z"/></svg>
+          Enviar por WhatsApp
+        </button>
+      </div>
+      <p class="form-note form-sent-note" style="display:none;">Abrindo seu aplicativo de e-mail ou WhatsApp para concluir o envio…</p>
+      <p class="form-note">Escolha enviar por e-mail (abre seu aplicativo padrão) ou por WhatsApp, com a mensagem já pronta para o nosso time.</p>
     </form>
 
     <div>
@@ -81,11 +91,13 @@
           <h4>Thiago Ribeiro</h4>
           <span style="font-size:.82rem;color:var(--ink-soft);">Founder</span>
           <a href="mailto:thiago@meetandgreat.co">thiago@meetandgreat.co</a>
+          <a class="whatsapp-link" href="https://wa.me/5551982022962?text=Ol%C3%A1%20Thiago!%20Vim%20pelo%20site%20da%20MeetandGreat.Co." target="_blank" rel="noopener">WhatsApp</a>
         </div>
         <div class="person">
           <h4>Alexandre Akira</h4>
           <span style="font-size:.82rem;color:var(--ink-soft);">Cofounder</span>
           <a href="mailto:akira@meetandgreat.co">akira@meetandgreat.co</a>
+          <a class="whatsapp-link" href="https://wa.me/5511988718556?text=Ol%C3%A1%20Alexandre!%20Vim%20pelo%20site%20da%20MeetandGreat.Co." target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>
       <div style="margin-top:24px;">
