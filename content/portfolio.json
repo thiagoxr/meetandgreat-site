@@ -301,6 +301,19 @@
       "intro": "",
       "cards": [
         {
+          "period": "2º sem. 2027",
+          "valueLabel": "investimento",
+          "hidden": false,
+          "name": "The Better-Cities Event",
+          "detail": "Promovido pela Urban Futures, reúne líderes urbanos e especialistas para discutir soluções de sustentabilidade, mobilidade e tecnologia para as cidades do futuro, através de palestras e workshops.\n\nSeja um parceiro do Better Cities e conecte-se com um público influente e engajado.",
+          "value": "Sob consulta",
+          "periodLabel": "período",
+          "location": "Porto Alegre - RS (by Urban Futures)",
+          "image": "assets/img/portfolio/better-cities-event.jpg",
+          "description": "Líderes urbanos e especialistas discutindo sustentabilidade, mobilidade e tecnologia para as cidades do futuro.",
+          "interestQuery": "Better-Cities+Event"
+        },
+        {
           "period": "Sob consulta",
           "valueLabel": "investimento",
           "hidden": false,
@@ -325,19 +338,6 @@
           "image": "assets/img/portfolio/forbes-under-30.jpg",
           "description": "Evento que reúne jovens talentos e líderes reconhecidos pela Forbes, com palestras, workshops e networking.",
           "interestQuery": "Forbes+Under+30"
-        },
-        {
-          "period": "2º sem. 2027",
-          "valueLabel": "investimento",
-          "hidden": false,
-          "name": "The Better-Cities Event",
-          "detail": "Promovido pela Urban Futures, reúne líderes urbanos e especialistas para discutir soluções de sustentabilidade, mobilidade e tecnologia para as cidades do futuro, através de palestras e workshops.\n\nSeja um parceiro do Better Cities e conecte-se com um público influente e engajado.",
-          "value": "Sob consulta",
-          "periodLabel": "período",
-          "location": "Porto Alegre - RS (by Urban Futures)",
-          "image": "assets/img/portfolio/better-cities-event.jpg",
-          "description": "Líderes urbanos e especialistas discutindo sustentabilidade, mobilidade e tecnologia para as cidades do futuro.",
-          "interestQuery": "Better-Cities+Event"
         },
         {
           "period": "30/08–07/09/2026",
