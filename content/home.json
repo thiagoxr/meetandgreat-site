@@ -12,9 +12,21 @@
     "title": "Relevância e diferenciação, gerando estima e conhecimento",
     "description": "Nossa missão é clara: conectar as melhores marcas às melhores oportunidades, desenvolvendo a presença de nossos parceiros e promovendo experiências autênticas que permanecem na memória. Liderada por executivos de renome no mercado brasileiro, a MeetandGreat.Co está pronta para revolucionar a forma como você interage com eventos, capta patrocínios e promove ativações da sua marca.",
     "items": [
-      { "title": "Conhecimento e autoridade regional", "description": "Nascemos em Porto Alegre e sabemos exatamente como criar relacionamentos verdadeiros com o mercado do Rio Grande do Sul: a conexão que faltava entre sua marca e o Sul do país.", "hidden": false },
-      { "title": "Portfólio diversificado", "description": "Esportes, espaços públicos, cultura, gastronomia, negócios, tecnologia e causas sociais: encontramos o encaixe certo para o seu orçamento e objetivo de marca.", "hidden": false },
-      { "title": "Incentivo fiscal", "description": "Vários projetos do portfólio têm aprovação via Lei Rouanet, ProAC ICMS e Lei do Audiovisual, reduzindo o custo efetivo do patrocínio para sua empresa.", "hidden": false }
+      {
+        "title": "Conhecimento e autoridade regional",
+        "description": "Nascemos em Porto Alegre e sabemos exatamente como criar relacionamentos verdadeiros com o mercado do Rio Grande do Sul: a conexão que faltava entre sua marca e o Sul do país.",
+        "hidden": false
+      },
+      {
+        "title": "Portfólio diversificado",
+        "description": "Esportes, espaços públicos, cultura, gastronomia, negócios, tecnologia e causas sociais: encontramos o encaixe certo para o seu orçamento e objetivo de marca.",
+        "hidden": false
+      },
+      {
+        "title": "Incentivo fiscal",
+        "description": "Vários projetos do portfólio têm aprovação via Lei Rouanet, ProAC ICMS e Lei do Audiovisual, reduzindo o custo efetivo do patrocínio para sua empresa.",
+        "hidden": false
+      }
     ]
   },
   "verticalsSection": {
@@ -26,14 +38,35 @@
     "eyebrow": "Nossos cases",
     "title": "Histórico com eventos de peso no cenário nacional",
     "description": "Do South Summit Brazil e Netshoes Run Porto Alegre ao Prêmio iBest 2025, atuamos em projetos que já movimentaram multidões e viraram referência de construção de marca no Rio Grande do Sul e no Brasil.",
-    "photoOne": { "image": "assets/img/cases-southsummit.jpg", "label": "South Summit Brazil" },
-    "photoTwo": { "image": "assets/img/cases-netshoes.jpg", "label": "Netshoes Run Porto Alegre" },
-    "photoThree": { "image": "assets/img/cases-ibest.jpg", "label": "Prêmio iBest 2025" },
+    "photoOne": {
+      "image": "assets/img/cases-southsummit.jpg",
+      "label": "South Summit Brazil"
+    },
+    "photoTwo": {
+      "image": "/assets/img/netshoesrunpoa_nov25.jpg",
+      "label": "Netshoes Run Porto Alegre"
+    },
+    "photoThree": {
+      "image": "assets/img/cases-ibest.jpg",
+      "label": "Prêmio iBest 2025"
+    },
     "stats": [
-      { "value": "100 mil+", "label": "pessoas alcançadas presencialmente em ativações dos diferentes segmentos de atuação" },
-      { "value": "1 Bi+", "label": "pessoas impactadas via redes sociais e demais canais de comunicação e mídia" },
-      { "value": "200+", "label": "marcas parceiras em projetos de patrocínio" },
-      { "value": "R$90 Mi+", "label": "captados em patrocínios diretos, indiretos e parcerias comerciais" }
+      {
+        "value": "100 mil+",
+        "label": "pessoas alcançadas presencialmente em ativações dos diferentes segmentos de atuação"
+      },
+      {
+        "value": "1 Bi+",
+        "label": "pessoas impactadas via redes sociais e demais canais de comunicação e mídia"
+      },
+      {
+        "value": "200+",
+        "label": "marcas parceiras em projetos de patrocínio"
+      },
+      {
+        "value": "R$90 Mi+",
+        "label": "captados em patrocínios diretos, indiretos e parcerias comerciais"
+      }
     ]
   },
   "ctaFinal": {
