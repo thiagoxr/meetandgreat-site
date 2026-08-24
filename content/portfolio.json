@@ -485,7 +485,7 @@
           "value": "R$ 22.500 – R$ 30.000",
           "periodLabel": "período",
           "location": "Potter Entrevista · Aquela História · Histórias do Potter",
-          "image": "assets/img/portfolio/luciano-potter.jpg",
+          "image": "/assets/img/luciano-potter.jpg",
           "description": "25+ anos de Grupo RBS, referência de comunicação no Sul do Brasil, com produtos que aproximam marcas de nomes relevantes.",
           "interestQuery": "Luciano+Potter"
         },
@@ -511,7 +511,7 @@
           "value": "Sob consulta",
           "periodLabel": "período",
           "location": "Caso a Caso Podcast · @fabionoar",
-          "image": "assets/img/portfolio/fabio-almeida.jpg",
+          "image": "/assets/img/chatgpt-image-12-de-mai.-de-2026-12_17_38.png",
           "description": "Jornalista investigativo com 20+ anos de experiência (RBS, Fantástico/Globo), hoje à frente do Caso a Caso Podcast.",
           "interestQuery": "Fabio+Almeida"
         }
