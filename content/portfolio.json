@@ -100,7 +100,7 @@
           "value": "R$ 20.000 – R$ 150.000",
           "periodLabel": "data",
           "location": "Porto Alegre - RS",
-          "image": "assets/img/portfolio/amrigs-tennis-cup.jpg",
+          "image": "/assets/img/amrigs-tennis-cup_capa.jpg",
           "description": "Torneio de tênis amador voltado ao setor de saúde, com ativações, serviços de saúde e networking qualificado.",
           "interestQuery": "AMRIGS+Tennis+Cup"
         },
@@ -113,7 +113,7 @@
           "value": "R$ 350.000",
           "periodLabel": "período",
           "location": "Porto Alegre - RS",
-          "image": "assets/img/portfolio/inside-the-court.jpg",
+          "image": "/assets/img/inside-the-court.jpg",
           "description": "Experiência exclusiva com o ex-Top 8 do mundo Diego Schwartzman: clínica, interação com atletas e experiências premium para poucos convidados.",
           "interestQuery": "Inside+the+Court"
         },
