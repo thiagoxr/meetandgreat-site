@@ -309,7 +309,7 @@
           "value": "Sob consulta",
           "periodLabel": "período",
           "location": "Porto Alegre - RS (by Urban Futures)",
-          "image": "assets/img/portfolio/better-cities-event.jpg",
+          "image": "/assets/img/urban-futures-better-cities.jpg",
           "description": "Líderes urbanos e especialistas discutindo sustentabilidade, mobilidade e tecnologia para as cidades do futuro.",
           "interestQuery": "Better-Cities+Event"
         },
