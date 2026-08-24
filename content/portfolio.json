@@ -368,7 +368,7 @@
         {
           "period": "21–23/04/2027",
           "valueLabel": "investimento",
-          "hidden": false,
+          "hidden": true,
           "name": "Transcend Wellness",
           "detail": "Hub de inovação, saúde, longevidade e wellness em Gramado, na Serra Gaúcha, reunindo líderes e profissionais da saúde em uma experiência exclusiva de conteúdo e geração de negócios.\n\nSeja parceiro do Transcend Wellness e conecte sua marca a um dos mercados que mais crescem no mundo.",
           "value": "Sob consulta",
