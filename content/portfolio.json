@@ -443,7 +443,7 @@
         {
           "period": "2026–2027",
           "valueLabel": "investimento",
-          "hidden": true,
+          "hidden": false,
           "name": "Smart City of Rock",
           "detail": "Projeto que busca levar mais tecnologia à Cidade do Rock, transformando o espaço de um dos maiores festivais de música do planeta em uma verdadeira cidade inteligente, em parceria com a Rock World.\n\nTraga sua marca e ajude a conectar inovação, tecnologia e entretenimento no Rock in Rio.",
           "value": "€ 80.000 – R$ 800.000",
