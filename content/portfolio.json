@@ -366,17 +366,17 @@
           "interestQuery": "Futebol+Feminino"
         },
         {
-          "period": "21–23/04/2027",
+          "period": "2027",
           "valueLabel": "investimento",
-          "hidden": true,
-          "name": "Transcend Wellness",
-          "detail": "Hub de inovação, saúde, longevidade e wellness em Gramado, na Serra Gaúcha, reunindo líderes e profissionais da saúde em uma experiência exclusiva de conteúdo e geração de negócios.\n\nSeja parceiro do Transcend Wellness e conecte sua marca a um dos mercados que mais crescem no mundo.",
-          "value": "Sob consulta",
+          "hidden": false,
+          "name": "Pixel Show",
+          "detail": "Reúne criativos, artistas, profissionais, empreendedores e marcas em uma programação que conecta arte, design, tecnologia, inovação e economia criativa, com conteúdo, experiências, networking e ativações.\n\nSeja um parceiro do Pixel Show e posicione sua marca como protagonista em um dos principais movimentos de criatividade e inovação do Brasil.",
+          "value": "R$ 15.000 – R$ 350.000",
           "periodLabel": "período",
-          "location": "Gramado - RS",
-          "image": "assets/img/portfolio/transcend-wellness.jpg",
-          "description": "Hub de inovação, saúde, longevidade e wellness, com conteúdo, networking e negócios no coração da Serra Gaúcha.",
-          "interestQuery": "Transcend+Wellness"
+          "location": "Porto Alegre - RS",
+          "image": "/assets/img/chatgpt-image-24-de-ago.-de-2026-11_13_14.png",
+          "description": "Evento de criatividade que conecta arte, design, tecnologia e inovação, com conteúdo, experiências e networking.",
+          "interestQuery": "pixel-show"
         },
         {
           "period": "2027",
@@ -392,6 +392,19 @@
           "interestQuery": "Summit+Empreender+40"
         },
         {
+          "period": "21–23/04/2027",
+          "valueLabel": "investimento",
+          "hidden": false,
+          "name": "Transcend Wellness",
+          "detail": "Hub de inovação, saúde, longevidade e wellness em Gramado, na Serra Gaúcha, reunindo líderes e profissionais da saúde em uma experiência exclusiva de conteúdo e geração de negócios.\n\nSeja parceiro do Transcend Wellness e conecte sua marca a um dos mercados que mais crescem no mundo.",
+          "value": "Sob consulta",
+          "periodLabel": "período",
+          "location": "Gramado - RS",
+          "image": "assets/img/portfolio/transcend-wellness.jpg",
+          "description": "Hub de inovação, saúde, longevidade e wellness, com conteúdo, networking e negócios no coração da Serra Gaúcha.",
+          "interestQuery": "Transcend+Wellness"
+        },
+        {
           "period": "2027",
           "valueLabel": "investimento",
           "hidden": true,
@@ -403,19 +416,6 @@
           "image": "assets/img/portfolio/health-business-meeting.jpg",
           "description": "Dois dias de imersão para médicos, dentistas e gestores de clínicas em aprendizado, networking e estratégias de gestão.",
           "interestQuery": "Health+Business+Meeting"
-        },
-        {
-          "period": "2027",
-          "valueLabel": "investimento",
-          "hidden": false,
-          "name": "Pixel Show",
-          "detail": "Reúne criativos, artistas, profissionais, empreendedores e marcas em uma programação que conecta arte, design, tecnologia, inovação e economia criativa, com conteúdo, experiências, networking e ativações.\n\nSeja um parceiro do Pixel Show e posicione sua marca como protagonista em um dos principais movimentos de criatividade e inovação do Brasil.",
-          "value": "R$ 15.000 – R$ 350.000",
-          "periodLabel": "período",
-          "location": "Porto Alegre - RS",
-          "image": "/assets/img/chatgpt-image-24-de-ago.-de-2026-11_13_14.png",
-          "description": "Evento de criatividade que conecta arte, design, tecnologia e inovação, com conteúdo, experiências e networking.",
-          "interestQuery": "pixel-show"
         }
       ]
     },
