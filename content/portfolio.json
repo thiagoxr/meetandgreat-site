@@ -40,16 +40,16 @@
           "interestQuery": "Liga+Run"
         },
         {
-          "period": "2º sem. 2026",
+          "period": "03 abril de 2027",
           "valueLabel": "investimento",
           "hidden": false,
-          "name": "FT Run · Fundação Tênis",
-          "detail": "Organizada pela Fundação Tênis, a FT Run é um evento de corrida de rua em Porto Alegre que une esporte, inclusão social e bem-estar, arrecadando fundos para projetos educacionais que transformam a vida de jovens talentos.\n\nSeja um parceiro da FT Run e mostre que sua marca joga junto com a inclusão e o esporte.",
+          "name": "FT Run · Fundação Tênis 2027",
+          "detail": "Organizada pela Fundação Tênis, a FT Run 27 é um evento de corrida de rua em Porto Alegre que une esporte, inclusão social e bem-estar, arrecadando fundos para projetos educacionais que transformam a vida de jovens talentos.\n\nSeja um parceiro da FT Run e mostre que sua marca joga junto com a inclusão e o esporte.",
           "value": "R$ 50.000 – R$ 300.000",
           "periodLabel": "período",
           "location": "Porto Alegre - RS",
           "image": "/assets/img/ft-run-2027.jpg",
-          "description": "Corrida de rua que une esporte, inclusão social e bem-estar, com renda revertida a projetos educacionais para jovens.",
+          "description": "Corrida de rua solidária que une esporte, inclusão social e bem-estar, com renda revertida a projetos educacionais para jovens da Fundação Tênis.",
           "interestQuery": "FT+Run"
         },
         {
